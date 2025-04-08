@@ -2,22 +2,23 @@ header{
     display: flex;
     justify-content: space-around;
     border: black 1px solid;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 4px 4px 5px black;
-    height: 50px;
+    height: 120px;
     width: 90%;
     justify-self: center;
 }
 
 header > a{
     font-family: sans-serif;
-    color: black;
+    font-size: larger;
+    color: #5D5D5D;
     text-decoration: none;
     align-self: center;
 }
 
 #headerLinks{
-    width: 75%;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
