@@ -9,17 +9,22 @@ function initialize(){
     linkDivs.id = "headerLinks";
 
     const textButton1 = document.createElement("a");
-    textButton1.innerHTML = "some page";
-    textButton1.href = "Page2.html";
+    textButton1.innerHTML = "Career";
+    textButton1.href = "Career.html";
 
     const textButton2 = document.createElement("a");
-    textButton2.innerHTML = "another page";
-    textButton2.href = "Page2.html";
+    textButton2.innerHTML = "Feed";
+    textButton2.href = "Feed.html";
+
+    const profileButton = document.createElement("a");
+    profileButton.href = "Profile.html";
+    profileButton.innerHTML = "<img id='profileImg' src='Assets/Images/Profile.png'>";
 
     DocHeader.appendChild(HeaderText);
 
     linkDivs.appendChild(textButton1);
     linkDivs.appendChild(textButton2);
+    linkDivs.appendChild(profileButton);
 
     DocHeader.appendChild(linkDivs);
 
