@@ -1,8 +1,3 @@
-const fs = require('fs');
+import data from "./Assets/Data/Courses.json";
 
-fs.readFile("Assets/Data.Courses.txt", (err, data)=>{
-    if (err){
-        console.error("Well that sucks: ", err);
-        return;
-    }
-});
+console.log(data);
