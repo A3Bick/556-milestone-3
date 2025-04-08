@@ -1,3 +1,6 @@
-import data from "./Assets/Data/Courses.json";
+const response = await fetch("./Assets/Data/Data.json");
 
-console.log(data);
+let data = await response.json();
+
+console.log(data.Courses);
+
