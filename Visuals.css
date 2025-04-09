@@ -100,7 +100,7 @@ header > a{
     display: flex;
 }
 
-.alumniCard > .info > span {
+.alumniCard > .info > span{
     margin: auto;
 }
 
@@ -144,6 +144,7 @@ header > a{
     font-size: 11px;
     color: #5d5d5d;
     margin: 10px 17px;
+    overflow: hidden;
 }
 
 .jobCard > div{
@@ -168,4 +169,53 @@ header > a{
 .jobCard > div > svg{
     float: right;
     margin: 3px 0 0;
+}
+
+.courseCard{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
+}
+
+.courseCard > *{
+    margin: 5px 10px;
+}
+
+.courseCardTop{
+    height: 1.2em;
+    display: flex;
+}
+
+.courseTitle{
+    width: 280px;
+    margin: .1em 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #454545;
+}
+
+.addToPlan{
+    width:75px;
+    height:30px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #F86342;
+    box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
+}
+
+.addToPlan:active{
+    background-color: #EF9883;
+}
+
+.courseSkills{
+    width:auto;
+    height: 3.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
