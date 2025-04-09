@@ -99,9 +99,15 @@ header > a{
 }
 
 .alumniCard > .info{
-    margin: 20px;
+    margin: 20px 0px;
     font-size: 9px;
     color: #808080;
+    width: 80%;
+    display: flex;
+}
+
+.alumniCard > .info > span {
+    margin: auto;
 }
 
 .alumniCard > button{
