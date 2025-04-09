@@ -94,13 +94,14 @@ header > a{
 }
 
 .alumniCard > .title{
+    margin: 5px 0 0;
     font-size: 10px;
 }
 
 .alumniCard > .info{
     margin: 20px;
     font-size: 9px;
-    color: 808080;
+    color: #808080;
 }
 
 .alumniCard > button{
