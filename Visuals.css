@@ -60,17 +60,18 @@ header > a{
     padding: 10px;
 }
 
-.recCreation{
+/* For Recommendation Creation and Post Creation */
+.recCreation, .createPost{
     padding: 40px 70px;
     width: 1008px;
 }
 
-.recCreation > form > p > label{
+.recCreation > form > p > label, .createPost > form > p > label{
     margin:40px 0px;
     font-size:24px;
 }
 
-#recTitle, #recSkills, #recReview, #recRating{
+.inputBox{
     border: 1px solid #000;
     background: #D9D9D9;
     color: #5D5D5D;
@@ -78,7 +79,7 @@ header > a{
     box-shadow: 4px 4px 4px 0px rgba(248, 99, 66, 0.50);
 }
 
-#recTitle{
+#recTitle, #createPostTitle, #createPostTags{
     width: 700px;
 }
 
@@ -86,17 +87,33 @@ header > a{
     width: 50px;
 }
 
-#recSkills, #recReview {
+#recSkills, #recReview, #createPostContent {
     width: 1000px;
     height: 5em;
 }
 
-#recSubmitP{
-    margin: 80px 0 0;
+#createPostVideo::file-selector-button{
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #F8B599;
+    box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
+}
+
+#createPostVideo{
+    height: 55px;
+}
+
+#recSubmitP, #createPostSubmitP{
+    margin: 60px 0 0;
     display: flex;
 }
 
-#recSubmit{
+#recSubmit, #createPostSubmit{
     margin: auto;
     width: 200px;
     height: 50px;
@@ -108,6 +125,7 @@ header > a{
     box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
 }
 
+/* For the Alumni Cards */
 .alumniCard{
     width: 238px;
     border: 1px solid #E9E9E9;
@@ -166,7 +184,7 @@ header > a{
     background-color: #E9E9E9;
 }
 
-
+/* For the Job Cards */
 .jobCard{
     width: 256px;
     border: 1px solid #E9E9E9;
@@ -219,6 +237,7 @@ header > a{
     margin: 3px 0 0;
 }
 
+/* For the Course Cards */
 .courseCard{
     width: 300px;
     height: 300px;
