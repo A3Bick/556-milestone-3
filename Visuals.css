@@ -60,6 +60,40 @@ header > a{
     padding: 10px;
 }
 
+/* for Alumni Feed */
+.alumniFeed{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageTitle{
+    color: #5D5D5D;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#feedSearchContainer{
+    width: 300px;
+    margin: auto;
+}
+
+#feedSearch{
+    margin: 20px auto 0;
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background-color: #F8B599;
+    font-size: 15px;
+    text-align: center;
+}
+
+#makePost{
+    margin: 20px auto;
+}
+
 /* For Recommendation Creation and Post Creation */
 .recCreation, .createPost{
     padding: 40px 70px;
@@ -113,8 +147,10 @@ header > a{
     display: flex;
 }
 
-#recSubmit, #createPostSubmit{
+/* This can be a div or an input button. If it's a div, put text in a <p> */
+.defaultButton{
     margin: auto;
+    text-align: center;
     width: 200px;
     height: 50px;
     font-size: 12px;
@@ -123,6 +159,10 @@ header > a{
     border: 1px solid #000;
     background: #F86342;
     box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
+}
+
+.defaultButton > p{
+    margin: 19px;
 }
 
 /* For the Alumni Cards */
