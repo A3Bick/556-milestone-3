@@ -1,12 +1,18 @@
 {
     "Courses":[
         {
-            "courseID": 1,
             "courseName": "CSE 101",
             "courseRating": 4.5,
             "skills": ["Software Engineering"],
             "Days": ["T", "Th"],
             "Times": ["10", "12"]
+        },
+        {
+            "courseName": "CSE 556",
+            "courseRating": 4.5,
+            "skills": ["UX Design"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"]
         }
     ]
 }
