@@ -16,6 +16,10 @@ function initialize(){
     textButton2.innerHTML = "Feed";
     textButton2.href = "Feed.html";
 
+    const textButton3 = document.createElement("a");
+    textButton3.innerHTML = "Feed";
+    textButton3.href = "Courses.html";
+
     const profileButton = document.createElement("a");
     profileButton.href = "Profile.html";
     profileButton.innerHTML = "<img id='profileImg' src='Assets/Images/Profile.png'>";
@@ -24,6 +28,7 @@ function initialize(){
 
     linkDivs.appendChild(textButton1);
     linkDivs.appendChild(textButton2);
+    linkDivs.appendChild(textButton3);
     linkDivs.appendChild(profileButton);
 
     DocHeader.appendChild(linkDivs);
