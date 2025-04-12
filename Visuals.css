@@ -45,8 +45,11 @@ header > a{
     text-align: center;
 }
 
-.filterSearch{
+.filter > *{
     margin-top: 10px;
+}
+
+.filterSearch{
     width: 90%;
     background-color: #E4E4E4;
     text-align: center;
@@ -56,8 +59,8 @@ header > a{
 
 .selectionOptions{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:first baseline;
 }
 
 .courseInfo > p{
