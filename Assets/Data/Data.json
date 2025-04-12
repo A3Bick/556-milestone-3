@@ -72,5 +72,25 @@
             "School": "Engineering",
             "Major": "CS"
         }
+    ],
+    "Careers":[
+        {
+            "careerID": 1,
+            "careerImg": "",
+            "careerName": "Placeholder",
+            "careerDesc": "Placeholder"
+        },
+        {
+            "careerID": 2,
+            "careerImg": "",
+            "careerName": "Placeholder",
+            "careerDesc": "Placeholder"
+        },
+        {
+            "careerID": 3,
+            "careerImg": "",
+            "careerName": "Placeholder",
+            "careerDesc": "Placeholder"
+        }
     ]
 }

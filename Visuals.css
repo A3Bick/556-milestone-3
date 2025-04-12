@@ -81,8 +81,22 @@ header > a{
     justify-content: space-around;
 }
 
+#activeCareers{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #courses{
     padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#careers{
+    margin-top: 300px;
     display: flex;
     justify-content: space-around;
 }
