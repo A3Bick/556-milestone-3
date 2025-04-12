@@ -7,7 +7,10 @@
             "skills": ["Software Engineering"],
             "Days": ["T", "Th"],
             "Times": ["10", "12"],
-            "Tags": ["Recommended for you", "Alumni Approved"]
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "courseID": 2,
@@ -16,7 +19,10 @@
             "skills": ["UX Design"],
             "Days": ["M", "W"],
             "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"]
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "courseID": 3,
@@ -25,7 +31,10 @@
             "skills": ["Parallel Programming"],
             "Days": ["M", "W"],
             "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"]
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "courseID": 4,
@@ -34,7 +43,10 @@
             "skills": ["Something Interesting"],
             "Days": ["M", "W"],
             "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"]
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "courseID": 5,
@@ -43,7 +55,10 @@
             "skills": ["Something Interesting"],
             "Days": ["M", "W"],
             "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"]
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "courseID": 6,
@@ -52,7 +67,10 @@
             "skills": ["Something Interesting"],
             "Days": ["M", "W"],
             "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"]
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         }
     ]
 }

@@ -1,9 +1,4 @@
-async function getCourses(){
-    const response = await fetch("./Assets/Data/Data.json");
-
-    let data = await response.json();
-
-    let courses = data.Courses;
+function getCourses(){
 
     const activeCourses = document.createElement("div");
     activeCourses.id = "activeCourses";
@@ -75,8 +70,87 @@ async function getCourses(){
     }
 }
 
+const response = await fetch("./Assets/Data/Data.json");
+
+let data = await response.json();
+
+let courses = data.Courses;
+
 let courseIDs = [];
 
 getCourses();
 
 console.log(courseIDs);
+
+const filter = document.getElementById("classFilter");
+filter.addEventListener('input', function(event){
+    console.log("Something happened with filter!");
+
+    //we are just gonna kinda "fake" the functionality here. Each button impacts if courses appear or not
+    let filterText = document.getElementsByClassName("filterSearch")[0].value;
+    console.log(filterText);
+
+    let activeChecks = filter.querySelectorAll('input[type="checkbox"]:checked');
+    console.log(activeChecks);
+
+    let filterVals = [];
+    for(let i = 0; i < activeChecks.length; i++){
+        filterVals.push(activeChecks[i].id);
+    }
+
+    console.log(filterVals);
+
+    let validIds = [];
+    for(let i = 0; i < courses.length; i++){
+
+        if(filterText.length > 0){
+            console.log(courses[i].courseName.toLowerCase());
+            if(courses[i].courseName.toLowerCase().includes(filterText)){
+                if(filterVals.length == 0){
+                    validIds.push(courses[i].courseID);
+                }
+                else{
+                    for(let j = 0; j < filterVals.length; j++){
+                        if(courses[i].Industry == filterVals[j] || courses[i].School == filterVals[j] || courses[i].Major == filterVals[j]){
+                            validIds.push(courses[i].courseID);
+                        }
+                    }
+                }
+            }
+        }else{
+            if(filterVals.length == 0){
+                validIds.push(courses[i].courseID);
+            }
+            else{
+                for(let j = 0; j < filterVals.length; j++){
+                    if(courses[i].Industry == filterVals[j] || courses[i].School == filterVals[j] || courses[i].Major == filterVals[j]){
+                        validIds.push(courses[i].courseID);
+                    }
+                }
+            }
+        }
+    }
+
+    console.log(validIds);
+
+    const courseCards = document.getElementsByClassName("courseCard");
+    console.log(courseCards);
+
+    for(let i = 0; i < courseCards.length; i++){
+        let toBeHidden = true;
+        for(let j = 0; j < validIds.length; j++){
+            if(validIds[j] == courseCards[i].id){
+
+                console.log("Element won't be hidden");
+                toBeHidden = false;
+                break;
+            }
+        }
+        if(toBeHidden == true){
+            courseCards[i].style.display = "none";
+        }
+        else{
+            courseCards[i].style.display = "block";
+        }
+    }
+});
