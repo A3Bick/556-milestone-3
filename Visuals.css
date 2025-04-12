@@ -38,12 +38,26 @@ header > a{
     width: 50px;
 }
 
-.courseInfo{
+.filter{
+    border: 1px solid black;
+    border-radius: 20px;
     width: 25%;
-    height: 25%;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+}
+
+.filterSearch{
+    margin-top: 10px;
+    width: 90%;
+    background-color: #E4E4E4;
+    text-align: center;
     border: solid black 1px;
+    border-radius: 10px;
+}
+
+.selectionOptions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .courseInfo > p{
@@ -57,7 +71,17 @@ header > a{
 }
 
 #activeCourses{
-    padding: 10px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#courses{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* for Alumni Feed */
@@ -286,9 +310,11 @@ header > a{
     display: flex;
     flex-direction: column;
     box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
+    margin-bottom: 25px;
 }
 
 .courseCard > *{
+    font-size: medium;
     margin: 5px 10px;
 }
 
@@ -314,6 +340,7 @@ header > a{
     border: 1px solid #000;
     background: #F86342;
     box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
+    font-size: 10px;
 }
 
 .addToPlan:active{

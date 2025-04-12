@@ -1,18 +1,58 @@
 {
     "Courses":[
         {
+            "courseID": 1,
             "courseName": "CSE 101",
             "courseRating": 4.5,
             "skills": ["Software Engineering"],
             "Days": ["T", "Th"],
-            "Times": ["10", "12"]
+            "Times": ["10", "12"],
+            "Tags": ["Recommended for you", "Alumni Approved"]
         },
         {
+            "courseID": 2,
             "courseName": "CSE 556",
             "courseRating": 4.5,
             "skills": ["UX Design"],
             "Days": ["M", "W"],
-            "Times": ["10", "11"]
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"]
+        },
+        {
+            "courseID": 3,
+            "courseName": "CSE 231",
+            "courseRating": 5,
+            "skills": ["Parallel Programming"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"]
+        },
+        {
+            "courseID": 4,
+            "courseName": "Placeholder",
+            "courseRating": 9999,
+            "skills": ["Something Interesting"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"]
+        },
+        {
+            "courseID": 5,
+            "courseName": "Placeholder",
+            "courseRating": 9999,
+            "skills": ["Something Interesting"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"]
+        },
+        {
+            "courseID": 6,
+            "courseName": "Placeholder",
+            "courseRating": 9999,
+            "skills": ["Something Interesting"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"]
         }
     ]
 }

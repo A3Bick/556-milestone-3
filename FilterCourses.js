@@ -8,17 +8,30 @@ console.log(courses);
 
 const activeCourses = document.createElement("div");
 activeCourses.id = "activeCourses";
-document.body.appendChild(activeCourses);
+
+const courseBody = document.getElementById("courses");
+courseBody.appendChild(activeCourses);
 
 for(let i = 0; i < courses.length; i++){
     const courseInfo = document.createElement("div");
-    courseInfo.className = "courseInfo";
+    courseInfo.className = "courseCard";
+
+    const courseCardTop = document.createElement("div");
+    courseCardTop.className = "courseCardTop";
 
     const courseName = document.createElement("p");
-    courseName.className = "courseName";
+    courseName.className = "courseTitle";
     courseName.innerHTML = courses[i].courseName;
 
+    const addButton = document.createElement("button");
+    addButton.className = "addToPlan";
+    addButton.innerHTML = "Add to Plan";
+
+    courseCardTop.appendChild(courseName);
+    courseCardTop.appendChild(addButton);
+
     const courseRating = document.createElement("p");
+    courseRating.className="courseRating";
     courseRating.innerHTML = "Rating: ".concat(courses[i].courseRating);
 
     const skills = document.createElement("p");
@@ -26,6 +39,7 @@ for(let i = 0; i < courses.length; i++){
     for(let j = 0; j < courses[i].skills.length; j++){
         skillString = skillString.concat(courses[i].skills[j], " ");
     }
+    skills.className="courseSkills";
     skills.innerHTML = skillString;
 
 
@@ -36,12 +50,23 @@ for(let i = 0; i < courses.length; i++){
 
     const times = document.createElement("p");
     dayString = dayString.concat(courses[i].Times[0], "-", courses[i].Times[1]);
+    times.className="courseTimes";
     times.innerHTML = dayString;
 
-    courseInfo.appendChild(courseName);
+    const Tags = document.createElement("p");
+    let tagString = "Tags: ";
+    for(let j = 0; j < courses[i].Tags.length; j++){
+        tagString = tagString.concat(courses[i].Tags[j], " ");
+    }
+
+    Tags.innerHTML = tagString;
+    Tags.className = "courseTags";
+
+    courseInfo.appendChild(courseCardTop);
     courseInfo.appendChild(courseRating);
     courseInfo.appendChild(skills);
     courseInfo.appendChild(times);
+    courseInfo.appendChild(Tags);
 
     activeCourses.appendChild(courseInfo);
 }
