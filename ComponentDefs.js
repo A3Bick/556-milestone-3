@@ -17,8 +17,12 @@ function initialize(){
     textButton2.href = "Feed.html";
 
     const textButton3 = document.createElement("a");
-    textButton3.innerHTML = "Feed";
+    textButton3.innerHTML = "Courses";
     textButton3.href = "Courses.html";
+
+    const textButton4 = document.createElement("a");
+    textButton4.innerHTML = "Clubs";
+    textButton4.href = "Clubs.html";
 
     const profileButton = document.createElement("a");
     profileButton.href = "Profile.html";
@@ -29,6 +33,7 @@ function initialize(){
     linkDivs.appendChild(textButton1);
     linkDivs.appendChild(textButton2);
     linkDivs.appendChild(textButton3);
+    linkDivs.appendChild(textButton4);
     linkDivs.appendChild(profileButton);
 
     DocHeader.appendChild(linkDivs);

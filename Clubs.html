@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Splashscreen</title>
+        <link rel="stylesheet" href="Visuals.css">
+    </head>
+    <body>
+        <script src="ComponentDefs.js"></script>
+        <div id="courses">
+            <form class="filter" id="classFilter">
+                <input type="text" placeholder="Search" class="filterSearch">
+                <div class="filterCategory">
+                    <p>Industry</p>
+                    <div class="selectionOptions">
+                        <div>
+                            <input type="checkbox" id="Tech">
+                            <label for="Tech">Tech/Engineering</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Arts">
+                            <label for="Arts">Arts/Literature</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Mathematics">
+                            <label for="Tech">Mathematics</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterCategory">
+                    <p>School</p>
+                    <div class="selectionOptions">
+                        <div>
+                            <input type="checkbox" id="Engineering">
+                            <label for="Engineering">Tech/Engineering</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterCategory">
+                    <p>Major</p>
+                    <div class="selectionOptions">
+                        <div>
+                            <input type="checkbox" id="CS">
+                            <label for="CS">Tech/Engineering</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" hidden>nothing</button>
+            </form>
+            <script type="module" src="FilterCourses.js"></script>
+        </div>
+    </body>
+</html>
