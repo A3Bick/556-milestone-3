@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Your Career</title>
+        <link rel="stylesheet" href="Visuals.css">
+    </head>
+    <body>
+        <script src="ComponentDefs.js"></script>
+        <script src="CareerIndividualAlumniCard.js"></script>
+        <script src="CareerIndividualController.js"></script>
+        <script src="CareerIndividualRecommendedCourses.js"></script>
+        <div class="subNavigation">
+            <a href="Career.html">Careers</a> > <span class="selectedCareer">Software Engineer</span>
+        </div>
+        <div id="careerSpecific">
+            <span id="careerTitle" class="selectedCareer">Software Engineer</span>
+            <div id="careerSpecificInfo">
+                <div>
+                    <div class="descriptorTitle">You Should Know: </div>
+                    <span id="careerSpecificYSK"><div>Python</div></span>
+                </div>
+                <div>
+                    <div class="descriptorTitle">Alumni Studied: </div>
+                    <span id="careerSpecificAS"><div>Computer Science</div></span>
+                </div>
+                <div>
+                    <div class="descriptorTitle">Description: </div> 
+                    <div id="careerSpecificDescription">A software engineering career involves designing, developing, testing, and maintaining software systems that power everything from mobile apps to large-scale cloud platforms. Software engineers use programming languages, algorithms, and system architecture principles to build efficient, scalable, and secure applications. The field offers diverse opportunities, including frontend and backend development, artificial intelligence, cybersecurity, embedded systems, and DevOps.</div>
+                </div>
+            </div>
+            <hr>
+            <div id="careerSpecificDays">
+                <div>
+                    <a href="">View More</a>
+                    <div>Day in Life</div>
+                    <div id="dilFrames">
+                        <iframe src="https://www.youtube.com/embed/j1fc0FlCjyI"></iframe>
+                        <iframe src="https://www.youtube.com/embed/j1fc0FlCjyI"></iframe>
+                        <iframe src="https://www.youtube.com/embed/j1fc0FlCjyI"></iframe>
+                        <iframe src="https://www.youtube.com/embed/j1fc0FlCjyI"></iframe>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div id="careerSpecificAlums">
+                <div>
+                    <a href="">View More</a>
+                    <div>Alum in the Field</div>
+                    <div id="alumCardContainer">
+
+                    </div>
+                </div>
+            </div>
+            <div id="careerSpecificSubpages">
+                <div style="margin-right: auto;" id="recommendedCoursesT" class="subpage selected">Recommended Courses</div>
+                <div style="margin: auto;" id="clubsOnCampusT" class="subpage">Clubs on Campus</div>
+                <div style="margin: auto;" id="internshipsT" class="subpage">Internships</div>
+                <div style="margin-left: auto;" id="personalProjectsT" class="subpage">Personal Projects</div>
+            </div>
+            <div id="careerSpecificBottom">
+                <div class="subpageContent" id="recommendedCourses"></div>
+                <div class="subpageContent hidden" id="clubsOnCampus"></div>
+                <div class="subpageContent hidden" id="internships"></div>
+                <div class="subpageContent hidden" id="personalProjects"></div>
+            </div>
+        </div>
+    </body>
+</html>
