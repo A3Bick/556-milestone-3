@@ -135,7 +135,7 @@ filter.addEventListener('input', function(event){
             careerCards[i].style.display = "none";
         }
         else{
-            careerCards[i].style.display = "block";
+            careerCards[i].style.display = "";
         }
     }
 });

@@ -167,7 +167,7 @@ filter.addEventListener('input', function(event){
             courseCards[i].style.display = "none";
         }
         else{
-            courseCards[i].style.display = "block";
+            courseCards[i].style.display = "";
         }
     }
 });

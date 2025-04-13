@@ -78,19 +78,28 @@
             "careerID": 1,
             "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Placeholder",
-            "careerDesc": "Placeholder"
+            "careerDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "careerID": 2,
             "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Placeholder",
-            "careerDesc": "Placeholder"
+            "careerDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         },
         {
             "careerID": 3,
             "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Placeholder",
-            "careerDesc": "Placeholder"
+            "careerDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         }
     ]
 }
