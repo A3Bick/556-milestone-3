@@ -76,19 +76,19 @@
     "Careers":[
         {
             "careerID": 1,
-            "careerImg": "",
+            "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Placeholder",
             "careerDesc": "Placeholder"
         },
         {
             "careerID": 2,
-            "careerImg": "",
+            "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Placeholder",
             "careerDesc": "Placeholder"
         },
         {
             "careerID": 3,
-            "careerImg": "",
+            "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Placeholder",
             "careerDesc": "Placeholder"
         }

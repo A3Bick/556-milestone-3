@@ -3,7 +3,7 @@ function getcareers(){
 
     // activecareers seperates our filter from the career cards
     const activecareers = document.createElement("div");
-    activecareers.id = "activecareers";
+    activecareers.id = "activeCareers";
 
     const careerBody = document.getElementById("careers");
     careerBody.appendChild(activecareers);
@@ -16,6 +16,7 @@ function getcareers(){
         careerInfo.className = "careerCard";
 
         const careerImg = document.createElement("img");
+        careerImg.src = careers[i].careerImg;
 
         const careerName = document.createElement("strong");
         careerName.className = "careerTitle";

@@ -10,7 +10,7 @@ function initialize(){
 
     const textButton1 = document.createElement("a");
     textButton1.innerHTML = "Career";
-    textButton1.href = "Career.html";
+    textButton1.href = "CareerHome.html";
 
     const textButton2 = document.createElement("a");
     textButton2.innerHTML = "Feed";
