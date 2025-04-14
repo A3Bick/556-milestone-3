@@ -101,5 +101,57 @@
             "School": "Engineering",
             "Major": "CS"
         }
+    ],
+    "Clubs":[
+        {
+            "clubID": 1,
+            "clubName": "Placeholder",
+            "clubDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
+            "clubID": 2,
+            "clubName": "Placeholder",
+            "clubDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
+            "clubID": 3,
+            "clubName": "Placeholder",
+            "clubDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        }
+    ],
+    "Internships":[
+        {
+            "internID": 1,
+            "internshipName": "Placeholder",
+            "internshipDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
+            "internID": 2,
+            "internshipName": "Placeholder",
+            "internshipDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
+            "internID": 3,
+            "internshipName": "Placeholder",
+            "internshipDesc": "Placeholder",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        }
     ]
 }

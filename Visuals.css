@@ -103,7 +103,27 @@ header > a{
     justify-content: space-around;
 }
 
+#activeClubs{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #courses{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#clubs{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#internships{
     padding-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -607,7 +627,25 @@ header > a{
     z-index: -1;
 }
 
+.clubCard{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #cfcfcf;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
 
+.internshipCard{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #cfcfcf;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
 
 .courseTitle{
     width: 280px;
