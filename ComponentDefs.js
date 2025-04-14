@@ -32,6 +32,10 @@ function initialize(){
     textButton4.innerHTML = "Clubs";
     textButton4.href = "Clubs.html";
 
+    const textButton5 = document.createElement("a");
+    textButton5.innerHTML = "Internships";
+    textButton5.href = "Internships.html";
+
     const profileButton = document.createElement("a");
     profileButton.href = "Profile.html";
     profileButton.innerHTML = "<img id='profileImg' src='Assets/Images/Profile.png'>";
@@ -42,6 +46,7 @@ function initialize(){
     linkDivs.appendChild(textButton2);
     linkDivs.appendChild(textButton3);
     linkDivs.appendChild(textButton4);
+    linkDivs.appendChild(textButton5);
     linkDivs.appendChild(profileButton);
 
     DocHeader.appendChild(linkDivs);

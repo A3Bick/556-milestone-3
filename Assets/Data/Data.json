@@ -136,7 +136,7 @@
     ],
     "Internships":[
         {
-            "internID": 1,
+            "internshipID": 1,
             "internshipName": "Placeholder",
             "pay": "None",
             "skills": ["Software Engineering"],
@@ -147,7 +147,7 @@
             "Major": "CS"
         },
         {
-            "internID": 2,
+            "internshipID": 2,
             "internshipName": "Placeholder",
             "pay": "None",
             "skills": ["Software Engineering"],
@@ -158,7 +158,7 @@
             "Major": "CS"
         },
         {
-            "internID": 3,
+            "internshipID": 3,
             "internshipName": "Placeholder",
             "pay": "None",
             "skills": ["Software Engineering"],
