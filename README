@@ -1,0 +1,7 @@
+Starting Local server instructions:
+
+1. Have Python installed
+2. Navigate to this directory
+3. Run command: "Python Executable Name here" -m http.server
+Note: in my case my executable's name is py, so the full command is: py -m http.server
+4. open any browser and visit: http://localhost:8000/
