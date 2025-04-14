@@ -19,6 +19,17 @@ function getclubs(){
         clubName.className = "clubCardName";
         clubName.innerHTML = clubs[i].clubName;
 
+        const clubTimes = document.createElement("p");
+        clubTimes.className = "clubTimes";
+        let timeString = "Meet Times: ";
+
+        for(let j = 0; j < clubs[i].MeetDay.length; j++){
+            timeString = timeString.concat(clubs[i].MeetDay[j], ", ");
+        }
+        timeString = timeString.concat(clubs[i].MeetTime[0], ", ", clubs[i].MeetTime[1]);
+
+        clubTimes.innerHTML = timeString;
+
         const clubDesc = document.createElement("p");
         clubDesc.className = "clubCardDesc";
         clubDesc.innerHTML = clubs[i].clubDesc;
@@ -26,6 +37,7 @@ function getclubs(){
 
         // put it all together in a neat little card
         clubInfo.appendChild(clubName);
+        clubInfo.appendChild(clubTimes);
         clubInfo.appendChild(clubDesc);
 
         clubInfo.id = clubs[i].clubID;

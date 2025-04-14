@@ -628,9 +628,11 @@ header > a{
 }
 
 .clubCard{
-    width: 500px;
-    height: 300px;
-    border: 1px solid #cfcfcf;
+    width: 800px;
+    height: 400px;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 20px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -638,9 +640,11 @@ header > a{
 }
 
 .internshipCard{
-    width: 500px;
-    height: 300px;
-    border: 1px solid #cfcfcf;
+    width: 800px;
+    height: 400px;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 20px;
     font-size: 20px;
     display: flex;
     flex-direction: column;

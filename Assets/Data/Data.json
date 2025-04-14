@@ -106,6 +106,8 @@
         {
             "clubID": 1,
             "clubName": "Placeholder",
+            "MeetDay": ["T", "Th"],
+            "MeetTime": ["10", "11"],
             "clubDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",
@@ -114,6 +116,8 @@
         {
             "clubID": 2,
             "clubName": "Placeholder",
+            "MeetDay": ["T", "Th"],
+            "MeetTime": ["10", "11"],
             "clubDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",
@@ -122,6 +126,8 @@
         {
             "clubID": 3,
             "clubName": "Placeholder",
+            "MeetDay": ["T", "Th"],
+            "MeetTime": ["10", "11"],
             "clubDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",
@@ -132,6 +138,9 @@
         {
             "internID": 1,
             "internshipName": "Placeholder",
+            "pay": "None",
+            "skills": ["Software Engineering"],
+            "qualities": ["Something IDK"],
             "internshipDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",
@@ -140,6 +149,9 @@
         {
             "internID": 2,
             "internshipName": "Placeholder",
+            "pay": "None",
+            "skills": ["Software Engineering"],
+            "qualities": ["Something IDK"],
             "internshipDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",
@@ -148,6 +160,9 @@
         {
             "internID": 3,
             "internshipName": "Placeholder",
+            "pay": "None",
+            "skills": ["Software Engineering"],
+            "qualities": ["Something IDK"],
             "internshipDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",

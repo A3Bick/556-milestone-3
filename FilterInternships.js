@@ -19,6 +19,33 @@ function getinternships(){
         internshipName.className = "internshipCardName";
         internshipName.innerHTML = internships[i].internshipName;
 
+        const intershipExtraInfo = document.createElement("div");
+        intershipExtraInfo.className = "ExtraInfo";
+
+        const pay = document.createElement("p");
+        pay.className = "pay";
+        pay.innerHTML = "Pay: ".concat(internships[i].pay);
+
+        const skills = document.createElement("p");
+        skills.className = "skills";
+        let skillString = "Desired Skills: ";
+        for(let j = 0; j < internships[i].skills.length; j++){
+            skillString = skillString.concat(internships[i].skills[j], " ");
+        }
+        skills.innerHTML = skillString;
+
+        const qualities = document.createElement("p");
+        qualities.className = "qualities";
+        let qualityString = "Desired Qualities: ";
+        for(let j = 0; j < internships[i].qualities.length; j++){
+            qualityString = qualityString.concat(internships[i].qualities[j], " ");
+        }
+        qualities.innerHTML = qualityString;
+
+        intershipExtraInfo.appendChild(pay);
+        intershipExtraInfo.appendChild(skills);
+        intershipExtraInfo.appendChild(qualities);
+
         const internshipDesc = document.createElement("p");
         internshipDesc.className = "internshipCardDesc";
         internshipDesc.innerHTML = internships[i].internshipDesc;
@@ -26,6 +53,7 @@ function getinternships(){
 
         // put it all together in a neat little card
         internshipInfo.appendChild(internshipName);
+        internshipInfo.appendChild(intershipExtraInfo);
         internshipInfo.appendChild(internshipDesc);
 
 
