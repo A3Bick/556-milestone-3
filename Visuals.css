@@ -162,13 +162,17 @@ header > a{
     padding: 8px;
 }
 
-#careerSpecificDays > div > a, #careerSpecificAlums > div > a{
+#careerSpecificDays, #careerSpecificAlums{
+    margin: 30px 0 0;
+}
+
+#careerSpecificDays > a, #careerSpecificAlums  > a{
     float: right;
     font-size: 15px;
     font-weight: 400;
 }
 
-#careerSpecificDays > div > div, #careerSpecificAlums > div > div{
+#careerSpecificDays > div, #careerSpecificAlums  > div{
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
