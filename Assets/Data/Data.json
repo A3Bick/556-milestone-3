@@ -77,8 +77,8 @@
         {
             "careerID": 1,
             "careerImg": "./Assets/Images/ComputerScience.png",
-            "careerName": "Placeholder",
-            "careerDesc": "Placeholder",
+            "careerName": "Software Engineer",
+            "careerDesc": "Software engineers design, develop, test, and maintain software systems that power everything from mobile apps...",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -86,7 +86,7 @@
         {
             "careerID": 2,
             "careerImg": "./Assets/Images/ComputerScience.png",
-            "careerName": "Placeholder",
+            "careerName": "Data Scientist",
             "careerDesc": "Placeholder",
             "Industry": "Tech",
             "School": "Engineering",

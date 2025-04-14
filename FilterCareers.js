@@ -18,23 +18,32 @@ function getcareers(){
         const careerImg = document.createElement("img");
         careerImg.src = careers[i].careerImg;
 
-        const careerName = document.createElement("strong");
-        careerName.className = "careerTitle";
+        const careerName = document.createElement("div");
+        careerName.className = "careerCardName";
         careerName.innerHTML = careers[i].careerName;
 
-        const careerDesc = document.createElement("p");
-        careerDesc.className="careerDesc";
+        const careerDesc = document.createElement("div");
+        careerDesc.className = "careerCardDesc";
         careerDesc.innerHTML = careers[i].careerDesc;
 
+// Create the button
         const careerButton = document.createElement("button");
         careerButton.innerHTML = "Learn More";
         careerButton.className = "careerButton";
+
+// Create the wrapper div and insert the button into it
+        const buttonWrapper = document.createElement("div");
+        buttonWrapper.className = "gradientButtonWrapper";
+        buttonWrapper.appendChild(careerButton);
+
 
         // put it all together in a neat little card
         careerInfo.appendChild(careerImg);
         careerInfo.appendChild(careerName);
         careerInfo.appendChild(careerDesc);
         careerInfo.appendChild(careerButton);
+        careerInfo.appendChild(buttonWrapper);
+
 
         careerInfo.id = careers[i].careerID;
         careerIDs.push(careers[i].careerID);

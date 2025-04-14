@@ -1,7 +1,6 @@
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    font-family: 'DM Sans', sans-serif;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -538,8 +537,8 @@ header > a{
 }
 
 .careerCard{
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 370px;
     border: 1px solid #cfcfcf;
     border-radius: 10px;
     font-size: 20px;
@@ -548,17 +547,67 @@ header > a{
     margin-bottom: 25px;
 }
 
-.careerCard > *{
-    font-size: medium;
-    margin: 5px 10px;
+.careerCardName {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 13px 10px 4px;
+    padding: 0 15px;
 }
 
-.careerCard > button{
-    width: 30%;
+.careerCardDesc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080; /* light grey */
+    line-height: 1.4;
+    margin: 4px 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 15px;
+}
+
+.careerCard > button {
+    position: relative;
     background-color: white;
     font-size: small;
-    border-radius: 20px;
+    border-radius: 15px;
+    padding: 6px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    z-index: 1;
+    overflow: hidden;
+    margin: 16px 0 0 15px;
 }
+
+/* Gradient border using mask */
+.careerCard > button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1.5px; /* thickness of the border */
+    border-radius: 15px;
+    background: conic-gradient(
+            from 90deg at 50% 50%,
+            rgba(248, 162, 178, 0.8) 18%,
+            rgba(247, 161, 185, 0.8) 33%,
+            rgba(255, 169, 133, 0.8) 81%,
+            rgba(236, 149, 255, 0.8) 100%
+    );
+
+    /* Creates a border-only effect by cutting out the inside */
+    -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: -1;
+}
+
+
 
 .courseTitle{
     width: 280px;
