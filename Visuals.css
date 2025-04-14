@@ -2,19 +2,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .hidden{
     display: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
-    border: black 1px solid;
-    border-radius: 25px;
-    box-shadow: 4px 4px 5px black;
-    height: 120px;
-    width: 90%;
+    align-items: center;
+    height: 80px;
+    width: 100%;
     justify-self: center;
+    border-bottom: 1px solid lightgray; /* thin gray line */
 }
 
 header > a{
@@ -38,8 +42,15 @@ header > a{
 }
 
 #profileImg{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+.career-banner {
+    width: 100%;
+    padding-top: 0px;
+    display: block;
+    position: relative;
 }
 
 .filter{
@@ -100,7 +111,7 @@ header > a{
 }
 
 #careers{
-    margin-top: 300px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -121,6 +132,12 @@ header > a{
 }
 
 /* For individual career page */
+.pageWrapper {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1440px; /* overall page width */
+}
+
 #careerTitle{
     font-size: 35px;
     font-weight: 500;
@@ -503,11 +520,10 @@ header > a{
 .courseCard{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid #cfcfcf;
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
     margin-bottom: 25px;
 }
 
@@ -524,11 +540,11 @@ header > a{
 .careerCard{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 4px 4px 4px 0px rgba(248, 181, 153, 0.50);
     margin-bottom: 25px;
 }
 

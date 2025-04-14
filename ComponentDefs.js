@@ -3,7 +3,15 @@ function initialize(){
 
     const HeaderText = document.createElement("a");
     HeaderText.href = "SplashScreen.html";
-    HeaderText.innerHTML = "NEXT STEP WASHU";
+
+    const logoImg = document.createElement("img");
+    logoImg.src = "Assets/Images/Logo.png"; // replace with your actual logo path
+    logoImg.alt = "NEXT STEP WASHU Logo";
+    logoImg.style.height = "50px"; // adjust as needed
+    logoImg.style.objectFit = "contain";
+
+    HeaderText.appendChild(logoImg); // add image to the anchor
+    DocHeader.appendChild(HeaderText);
 
     const linkDivs = document.createElement("div");
     linkDivs.id = "headerLinks";
