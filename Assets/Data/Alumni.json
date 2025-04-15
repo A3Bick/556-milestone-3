@@ -1,0 +1,36 @@
+{
+    "Alumni": [
+        {
+            "name": "Jonny Darden",
+            "title": " at Apple",
+            "pronouns": "He/him",
+            "classYear": "2022",
+            "location": "New York, NY",
+            "imageUrl": "Assets/Images/AlumProfileImage.png"
+        },
+        {
+            "name": "Addison Dannie",
+            "title": " at Apple",
+            "pronouns": "She/her",
+            "classYear": "2020",
+            "location": "Seattle, Washington",
+            "imageUrl": "Assets/Images/AlumProfileImage2.png"
+        },
+        {
+            "name": "Allyson Toni",
+            "title": " at Apple",
+            "pronouns": "She/her",
+            "classYear": "2011",
+            "location": "St. Louis, MO",
+            "imageUrl": "Assets/Images/AlumProfileImage3.png"
+        },
+        {
+            "name": "Morton Orrell",
+            "title": " at Apple",
+            "pronouns": "He/him",
+            "classYear": "1989",
+            "location": "San Jose, CA",
+            "imageUrl": "Assets/Images/AlumProfileImage4.png"
+        }
+    ]
+}

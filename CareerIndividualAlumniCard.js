@@ -50,46 +50,26 @@ function createAlumniCard(alumniData) {
     return card;
 }
 
-const alumniList = [
-    {
-    name: 'Rose Liu',
-    title: 'Software Engineer at Apple',
-    pronouns: 'She/her',
-    classYear: '2022',
-    location: 'New York, NY',
-    imageUrl: 'Assets/Images/AlumProfileImage.png'
-},
-{
-    name: 'Rose Liu',
-    title: 'Software Engineer at Apple',
-    pronouns: 'She/her',
-    classYear: '2020',
-    location: 'Seattle, Washington',
-    imageUrl: 'Assets/Images/AlumProfileImage2.png'
-},
-{
-    name: 'Rose Liu',
-    title: 'Software Engineer at Apple',
-    pronouns: 'She/her',
-    classYear: '2011',
-    location: 'St. Louis, MO',
-    imageUrl: 'Assets/Images/AlumProfileImage3.png'
-},
-{
-    name: 'Rose Liu',
-    title: 'Software Engineer at Apple',
-    pronouns: 'She/her',
-    classYear: '1989',
-    location: 'San Jose, CA',
-    imageUrl: 'Assets/Images/AlumProfileImage4.png'
+async function fetchAlumni(numAlums){
+    const response = await fetch("./Assets/Data/Alumni.json");
+    let data = await response.json();
+    let alumniList = data.Alumni;
+    if(numAlums){
+        return alumniList.slice(0, numAlums);
+    }
+    return alumniList;
 }
-];
 
-document.addEventListener('DOMContentLoaded', function() {
-    alumniList.forEach(alumniData => {
-        console.log("alumniData: "+alumniData.name);
+async function populateAlumni(){
+    let list = await fetchAlumni(document.getElementById("alumCardContainer").innerHTML);
+    document.getElementById("alumCardContainer").innerHTML = "";
+    list.forEach(alumniData => {
         const alumniCard = createAlumniCard(alumniData);
         const container = document.getElementById("alumCardContainer");
         container.appendChild(alumniCard);
     });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    populateAlumni();
 });
