@@ -123,7 +123,7 @@ header > a{
     justify-content: space-around;
 }
 
-#internships{
+#internships:not(.hidden){
     padding-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -262,7 +262,7 @@ header > a{
 
 /* Recommended course card */
 .recommendedCourseCard{
-    width: 300px;
+    width: 290px;
     border-radius: 10px;
     border: 1px solid rgba(16, 47, 125, 0.16);
     padding: 16px;
