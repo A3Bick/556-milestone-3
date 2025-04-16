@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("XXXXX")
     const urlParams = new URLSearchParams(window.location.search);
     const careerTitle = urlParams.get('career');
     console.log("career title: "+careerTitle);
@@ -7,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (careerTitle) {
         // Update the career title on the page
         document.querySelectorAll('.selectedCareer').forEach(elem => {
-            console.log("UPDATING");
             elem.innerHTML = careerTitle;
         });
     }
