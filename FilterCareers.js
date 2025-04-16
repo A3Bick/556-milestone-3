@@ -30,6 +30,14 @@ function getcareers(){
         const careerButton = document.createElement("button");
         careerButton.innerHTML = "Learn More";
         careerButton.className = "careerButton";
+        careerButton.addEventListener("click", () => {
+            // Construct the URL with parameters
+            const params = new URLSearchParams();
+            params.append("career", careers[i].careerName);
+        
+            // Navigate to CareerIndividual.html with parameters
+            window.location.href = `CareerIndividual.html?${params.toString()}`;
+        });
 
 // Create the wrapper div and insert the button into it
         const buttonWrapper = document.createElement("div");
