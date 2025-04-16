@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const careerTitle = urlParams.get('career');
+
+    if (careerTitle) {
+        // TODO: look for careerTitle in Data.Careers and update description
+    }
     // Get all buttons with the shared class name
     const buttons = document.querySelectorAll('.subpage');
     const pages = document.querySelectorAll('.subpageContent');
