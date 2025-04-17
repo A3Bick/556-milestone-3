@@ -24,7 +24,7 @@
     align-content: center;
 }
 
-.add{
+.add, .remove{
     background-color: rgba(138, 171, 255, .35);
     border-radius: 15px;
     width: 30px;
@@ -33,8 +33,15 @@
 
 .add > img{
     position: relative;
-    top: 7px;
-    left: 7px;
+    top: 7.5px;
+    left: 7.5px;
+}
+
+.remove > img{
+    position: relative;
+    top: 7.5px;
+    left: 7.5px;
+    rotate: 45deg;
 }
 
 .tag > p{
