@@ -6,6 +6,47 @@
     </head>
     <body>
         <script src="ComponentDefs.js"></script>
-        Congrats, links work
+        <div id="profileBody">
+            <div id="yourInfo">
+                <div>
+                    <img src="./Assets/Images/Profile.png" alt="you">
+                    <p>Your Name Here</p>
+                    <div>
+                        <p>Your Major: </p>
+                        <p>Your Minor: </p>
+                        <p>Your Year: </p>
+                    </div>
+                </div>
+                <div>
+                    <p>Alumni Connections: </p>
+                    <div id="connections"></div>
+                </div>
+            </div>
+            <div id="yourPlans">
+                <form>
+                    <label for="careerSelection">Your Career Goals: </label>
+                    <select name="careerSelection">
+                        <option value="Undecided">Undecided</option>
+                        <option value="Continuing Studies">Continuing Studies</option>
+                        <option value="Seeking Full Time">Seeking Full Time</option>
+                        <option value="Seeking Part Time">Seeking Part Time</option>
+                        <option value="NA">N/A</option>
+                    </select>
+                    <button type="submit" hidden>For Validation, no touchy</button>
+                </form>
+                <div>
+                    <p>Your Saved Courses</p>
+                    <div></div>
+                </div>
+                <div>
+                    <p>Your Saved Clubs</p>
+                    <div></div>
+                </div>
+                <div>
+                    <p>Your Saved Internships</p>
+                    <div></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

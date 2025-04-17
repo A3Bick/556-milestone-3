@@ -45,6 +45,25 @@ header > a{
     width: 40px;
 }
 
+#profileBody{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#yourInfo{
+    width: 30%;
+}
+
+#yourInfo > *{
+    padding: 20px;
+}
+
+#yourPlans > *{
+    padding: 20px;
+}
+
 .career-banner {
     width: 100%;
     padding-top: 0px;
