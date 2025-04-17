@@ -1,0 +1,78 @@
+.contentCard{
+    border: solid 1px rgba(16, 47, 125, .15);
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+}
+
+.cardTop{
+    position: relative;
+    left: 25px;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tag{
+    background-color: rgba(138, 171, 255, .35);
+    border-radius: 10px;
+    width: 80px;
+    height: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+.add{
+    background-color: rgba(138, 171, 255, .35);
+    border-radius: 15px;
+    width: 30px;
+    height: 30px; 
+}
+
+.add > img{
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+
+.tag > p{
+    align-self: center;
+    font-size: 7px;
+    color: #2020D2;
+    margin: 0;
+}
+
+.cardInfo{
+    width: 75%;
+    margin-left: 35px;
+}
+
+.infoTitle{
+    font-size: medium;
+}
+
+.infoSubtitle{
+    font-size: smaller;
+}
+
+.cardShape{
+    position: relative;
+    top: -65px;
+    left: 25px;
+    height: 50px;
+    width: 5px;
+    background-color: rgba(248, 66, 66, 0.8);
+}
+
+.cardAdditionalInfo{
+    position: relative;
+    top: -50px;
+    margin-left: 25px;
+    font-size: 9px;
+}
+
+.cardAdditionalInfo > p{
+    color: #575757;
+}
