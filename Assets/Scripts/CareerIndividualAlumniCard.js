@@ -45,6 +45,16 @@ function createAlumniCard(alumniData) {
     // Create and append the follow button
     const button = document.createElement('button');
     button.textContent = 'Follow';
+    button.addEventListener("click", function(){
+        switch(button.textContent){
+            case "Follow":
+                button.textContent = "Following"
+                break;
+            case "Following":
+                button.textContent = "Follow"
+                break;
+        }
+    });
     card.appendChild(button);
 
     return card;
