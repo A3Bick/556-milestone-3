@@ -1,0 +1,48 @@
+.careerSelection{
+    height: 20px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.courses > div{
+    margin-top: 10px;
+}
+
+#profileBody{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#yourInfo{
+    width: 30%;
+}
+
+#yourInfo > *{
+    padding: 20px;
+}
+
+#yourInfo > div{
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#yourInfo > div > div{
+    text-align: center;
+}
+
+#yourPlans{
+    width: 50%;
+}
+
+#yourPlans > *{
+    padding: 20px;
+}
