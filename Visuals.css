@@ -69,6 +69,10 @@ header > a{
     text-align: center;
 }
 
+#yourPlans{
+    width: 50%;
+}
+
 #yourPlans > *{
     padding: 20px;
 }
