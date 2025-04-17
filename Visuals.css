@@ -60,6 +60,15 @@ header > a{
     padding: 20px;
 }
 
+#yourInfo > div{
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#yourInfo > div > div{
+    text-align: center;
+}
+
 #yourPlans > *{
     padding: 20px;
 }
