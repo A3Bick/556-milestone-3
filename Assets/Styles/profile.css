@@ -39,6 +39,16 @@
     text-align: center;
 }
 
+.yourClassInfo{
+    font-size: small;
+}
+
+.alumniPic{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
 #yourPlans{
     width: 50%;
 }

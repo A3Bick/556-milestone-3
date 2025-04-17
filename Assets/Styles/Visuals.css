@@ -45,13 +45,6 @@ header > a{
     width: 40px;
 }
 
-#profileBody{
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .career-banner {
     width: 100%;
     padding-top: 0px;
