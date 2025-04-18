@@ -2,9 +2,29 @@
 <html lang="en-us">
     <head>
         <title>Your Career</title>
-        <link rel="stylesheet" href="./Assets/Styles/Visuals.css">
+        <link rel="stylesheet" href="./Assets/Styles/Header.css">
+        <link rel="stylesheet" href="./Assets/Styles/recommendationCreation.css">
     </head>
     <body>
+        <script src="./Assets/Scripts/ComponentDefs.js"></script>
+        <div class="createRecommendation">
+            <p>Create Recommendation</p>
+            <form id="createRecommendationForm">
+                <label>Course Title: <input type="text" id="recommendationTitle" placeholder="Input Text Here"></label>
+                <label>Rating: <input id="recommendationRating" placeholder="1-5" type="number" max="5" min="1"></label>
+                <p>Skills Gained:</p>
+                <textarea id="recommendationSkills" rows="5" cols="100" placeholder="Write Description here"></textarea>
+
+                <p>Review:</p>
+                <textarea id="recommendationReview" rows="5" cols="100" placeholder="Write Description here"></textarea>
+                <div id="exitButtons">
+                    <a href="Feed.html" id="cancel">Cancel</a>
+                    <a href="Feed.html" id="submit">Create Recommendation</a>
+                </div>
+                <button type="submit" hidden>No Touchy</button>
+            </form>
+        </div>
+        <!--
         <div class="recCreation">
             <form id="recCreationForm">
                 <p>
@@ -26,5 +46,6 @@
                 </p>
             </form>
         </div>
+        -->
     </body>
 </html>
