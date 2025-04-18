@@ -8,22 +8,21 @@
         <div class="createPost">
             <form id="createPostForm">
                 <p>
-                    <label for="createPostTitle">Post Title: <input type="text" id="createPostTitle" class="inputBox" placeholder="Enter post title here"></label>
+                    <label>Post Title: <input type="text" id="createPostTitle" class="inputBox" placeholder="Enter post title here"></label>
                 </p>
                 <p>
                     <label for="createPostContent">Content: </label>
                 </p>
                 <textarea id="createPostContent" class="inputBox" placeholder="Enter text here"></textarea>
                 <p>
-                    <label for="createPostVideo">Post Video (Optional): <input type="file" id="createPostVideo"></label>
+                    <label>Post Video (Optional): <input type="file" id="createPostVideo"></label>
                 </p>
                 <!-- Solutions for removing "no file chosen" seem to be JS based, so will leave that for later -->
                 <p>
-                    <label for="createPostTags">Post Tags: <input type="text" id="createPostTags" class="inputBox" placeholder="Enter post title here"></label>
+                    <label>Post Tags: <input type="text" id="createPostTags" class="inputBox" placeholder="Enter post title here"></label>
                 </p>
-                <p id="createPostSubmitP">
-                    <input class="defaultButton" id="createPostSubmit" type="submit">
-                </p>
+                <a href="Feed.html"><div class="defaultButton" id="createPostSubmit"><p>Submit</p></div></a>
+                <button type="submit" hidden>No Touchy, only for Validation</button>
             </form>
         </div>
     </body>

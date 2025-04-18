@@ -10,6 +10,11 @@ body {
     display: none;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -356,6 +361,10 @@ header > a{
 .recCreation, .createPost{
     padding: 40px 70px;
     width: 1008px;
+}
+
+.createPost{
+    align-self: center;
 }
 
 .recCreation > form > p > label, .createPost > form > p > label{
@@ -711,4 +720,9 @@ header > a{
 
 .postDescription{
     width: 750px;
+}
+
+#createPostForm > a{
+    width: 25%;
+    align-self: center;
 }
