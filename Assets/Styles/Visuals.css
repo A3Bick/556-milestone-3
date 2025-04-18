@@ -469,12 +469,14 @@ header > a{
     margin: 20px 0px;
     font-size: 9px;
     color: #808080;
-    width: 80%;
+    width: 100%;
     display: flex;
 }
 
 .alumniCard > .info > span{
-    margin: auto;
+    width: 79px;
+    text-align: center;
+    overflow: hidden;
 }
 
 .alumniCard > button{
