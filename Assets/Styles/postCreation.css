@@ -1,0 +1,69 @@
+.createPost{
+    width: 75%;
+    margin-top: 25px;
+    margin: auto;
+}
+
+.createPost > p{
+    font-size: large;
+    text-align: center;
+}
+
+#createPostForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#createPostForm > label{
+    margin-top: 25px;
+}
+
+#postTitle, #postTags{
+    width: 85%;
+    background-color: #EEEE;
+    border-radius: 10px;
+}
+
+#postDesc{
+    width: 100%;
+    height: 200px;
+    background-color: #EEEE;
+    border-radius: 10px;
+}
+
+#postVideo{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#UploadButton{
+    width: 190px;
+    height: 50px;
+}
+
+#exitButtons{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cancel, #submit{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+#cancel{
+    border: solid black 1px;
+    background-color: #EAEAEA;
+}
+
+#submit{
+    border: solid 1px #FF624D;
+    color: #FF624D;
+}

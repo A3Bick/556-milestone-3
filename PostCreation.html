@@ -2,27 +2,27 @@
 <html lang="en-us">
     <head>
         <title>Your Career</title>
-        <link rel="stylesheet" href="./Assets/Styles/Visuals.css">
+        <link rel="stylesheet" href="./Assets/Styles/Header.css">
+        <link rel="stylesheet" href="./Assets/Styles/postCreation.css">
     </head>
     <body>
+        <script src="./Assets/Scripts/ComponentDefs.js"></script>
         <div class="createPost">
+            <p>Create Post</p>
             <form id="createPostForm">
-                <p>
-                    <label>Post Title: <input type="text" id="createPostTitle" class="inputBox" placeholder="Enter post title here"></label>
-                </p>
-                <p>
-                    <label for="createPostContent">Content: </label>
-                </p>
-                <textarea id="createPostContent" class="inputBox" placeholder="Enter text here"></textarea>
-                <p>
-                    <label>Post Video (Optional): <input type="file" id="createPostVideo"></label>
-                </p>
-                <!-- Solutions for removing "no file chosen" seem to be JS based, so will leave that for later -->
-                <p>
-                    <label>Post Tags: <input type="text" id="createPostTags" class="inputBox" placeholder="Enter post title here"></label>
-                </p>
-                <a href="Feed.html"><div class="defaultButton" id="createPostSubmit"><p>Submit</p></div></a>
-                <button type="submit" hidden>No Touchy, only for Validation</button>
+                <label>Post Title: <input type="text" id="postTitle" placeholder="Input Text Here"></label>
+                <p>Description:</p>
+                <textarea id="postDesc" rows="5" cols="100" placeholder="Write Description here"></textarea>
+                <div id="postVideo">
+                    <p>Post Video: </p>
+                    <img src="./Assets/Images/UploadButton.png" alt="UploadButton" id="UploadButton">
+                </div>
+                <label>Tags: <input type="text" id="postTags" placeholder="Input Text Here"></label>
+                <div id="exitButtons">
+                    <a href="Feed.html" id="cancel">Cancel</a>
+                    <a href="Feed.html" id="submit">Submit</a>
+                </div>
+                <button type="submit" hidden>No Touchy</button>
             </form>
         </div>
     </body>
