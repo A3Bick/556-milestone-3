@@ -87,7 +87,7 @@
             "careerID": 2,
             "careerImg": "./Assets/Images/ComputerScience.png",
             "careerName": "Data Scientist",
-            "careerDesc": "Placeholder",
+            "careerDesc": "Data scientists analyze and interpret complex data to help organizations make data-driven decisions using machine learning and statistical methods.",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -95,11 +95,173 @@
         {
             "careerID": 3,
             "careerImg": "./Assets/Images/ComputerScience.png",
-            "careerName": "Placeholder",
-            "careerDesc": "Placeholder",
+            "careerName": "Cybersecurity Analyst",
+            "careerDesc": "Cybersecurity analysts protect systems and networks from cyber threats by identifying vulnerabilities and implementing security measures.",
             "Industry": "Tech",
             "School": "Engineering",
-            "Major": "CS"
+            "Major": "Cybersecurity"
+        },
+        {
+            "careerID": 4,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "AI/ML Engineer",
+            "careerDesc": "AI/ML engineers develop artificial intelligence models and machine learning algorithms to automate tasks and improve decision-making.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 5,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "DevOps Engineer",
+            "careerDesc": "DevOps engineers streamline software development and deployment by automating infrastructure and improving collaboration between teams.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Software Engineering"
+        },
+        {
+            "careerID": 6,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Game Developer",
+            "careerDesc": "Game developers design and program video games, working on gameplay mechanics, graphics, and user experience.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Game Design"
+        },
+        {
+            "careerID": 7,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Cloud Architect",
+            "careerDesc": "Cloud architects design and manage cloud computing strategies, ensuring scalability, security, and efficiency for businesses.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 8,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Robotics Engineer",
+            "careerDesc": "Robotics engineers design and build robotic systems for industries like manufacturing, healthcare, and automation.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Robotics"
+        },
+        {
+            "careerID": 9,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Blockchain Developer",
+            "careerDesc": "Blockchain developers create decentralized applications (dApps) and smart contracts using blockchain technology.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Computer Science"
+        },
+        {
+            "careerID": 10,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Quantitative Analyst",
+            "careerDesc": "Quantitative analysts use mathematical models to analyze financial markets and assess risk for investment strategies.",
+            "Industry": "Finance/Tech",
+            "School": "Math",
+            "Major": "Applied Mathematics"
+        },
+        {
+            "careerID": 11,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Statistician",
+            "careerDesc": "Statisticians collect, analyze, and interpret data to solve real-world problems in industries like healthcare and economics.",
+            "Industry": "Math",
+            "School": "Math",
+            "Major": "Statistics"
+        },
+        {
+            "careerID": 12,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Actuary",
+            "careerDesc": "Actuaries assess financial risks using mathematics, statistics, and financial theory, primarily in insurance and finance.",
+            "Industry": "Math",
+            "School": "Math",
+            "Major": "Actuarial Science"
+        },
+        {
+            "careerID": 13,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Cryptographer",
+            "careerDesc": "Cryptographers develop algorithms and encryption methods to secure data and communications from cyber threats.",
+            "Industry": "Tech/Math",
+            "School": "Math",
+            "Major": "Cryptography"
+        },
+        {
+            "careerID": 14,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Technical Writer",
+            "careerDesc": "Technical writers create clear and concise documentation, manuals, and guides for software, hardware, and engineering products.",
+            "Industry": "Tech/Literature",
+            "School": "Arts/Literature",
+            "Major": "Technical Writing"
+        },
+        {
+            "careerID": 15,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Creative Writer",
+            "careerDesc": "Creative writers craft novels, scripts, poetry, and other literary works, often for publishing, media, or entertainment industries.",
+            "Industry": "Arts/Literature",
+            "School": "Arts/Literature",
+            "Major": "Creative Writing"
+        },
+        {
+            "careerID": 16,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "UX/UI Designer",
+            "careerDesc": "UX/UI designers create user-friendly and visually appealing interfaces for websites, apps, and digital products.",
+            "Industry": "Tech",
+            "School": "Arts/Design",
+            "Major": "Human-Computer Interaction"
+        },
+        {
+            "careerID": 17,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Digital Artist",
+            "careerDesc": "Digital artists use software tools to create illustrations, animations, and visual effects for games, films, and advertising.",
+            "Industry": "Arts/Tech",
+            "School": "Arts",
+            "Major": "Digital Arts"
+        },
+        {
+            "careerID": 18,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Literary Editor",
+            "careerDesc": "Literary editors review and refine manuscripts, ensuring clarity, coherence, and quality in books, articles, and publications.",
+            "Industry": "Arts/Literature",
+            "School": "Arts/Literature",
+            "Major": "English"
+        },
+        {
+            "careerID": 19,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Mathematician",
+            "careerDesc": "Mathematicians research and develop mathematical theories, applying them to solve problems in science, engineering, and economics.",
+            "Industry": "Math",
+            "School": "Math",
+            "Major": "Mathematics"
+        },
+        {
+            "careerID": 20,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "3D Modeler",
+            "careerDesc": "3D modelers create digital representations of objects and characters for animation, gaming, and virtual reality.",
+            "Industry": "Tech/Arts",
+            "School": "Arts/Engineering",
+            "Major": "3D Animation"
+        },
+        {
+            "careerID": 21,
+            "careerImg": "./Assets/Images/ComputerScience.png",
+            "careerName": "Systems Architect",
+            "careerDesc": "Systems architects design and oversee complex IT infrastructures, ensuring efficiency, security, and scalability for organizations.",
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "Computer Engineering"
         }
     ],
     "Clubs":[

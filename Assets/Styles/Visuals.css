@@ -194,6 +194,10 @@ header > a{
     margin: 0 20px 0 0;
 }
 
+#careerSpecificYSK, #careerSpecificAS{
+    display: flex;
+}
+
 #careerSpecificYSK > div, #careerSpecificAS > div{
     border-radius: 10px;
     background: rgba(255, 150, 136, 0.20);
@@ -201,6 +205,7 @@ header > a{
     font-size: 13px;
     font-weight: 400;
     padding: 8px;
+    margin: auto 10px;
 }
 
 #careerSpecificDays, #careerSpecificAlums{

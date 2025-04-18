@@ -1,0 +1,128 @@
+[
+    {
+        "careerName": "Software Engineer",
+        "skills": ["Programming (Python, Java, C++)", "Algorithms & Data Structures", "Software Development Lifecycle", "Debugging", "Version Control (Git)"],
+        "alumniStudied": ["Computer Science", "Software Engineering", "Computer Engineering"],
+        "longDescription": "Software engineers design, develop, test, and maintain software applications and systems. They collaborate with cross-functional teams to build scalable solutions, from mobile apps to enterprise software. Strong problem-solving skills and knowledge of frameworks (e.g., React, Node.js) are essential. Many work in agile environments, contributing to open-source projects or proprietary systems."
+    },
+    {
+        "careerName": "Data Scientist",
+        "skills": ["Machine Learning", "Statistical Analysis", "Data Visualization", "Python/R", "SQL", "Big Data Tools (Hadoop, Spark)"],
+        "alumniStudied": ["Data Science", "Statistics", "Computer Science", "Applied Mathematics"],
+        "longDescription": "Data scientists extract insights from complex datasets using statistical models and machine learning. They clean, analyze, and visualize data to drive business decisions, often working with tools like TensorFlow, Tableau, or Jupyter Notebooks. Industries like healthcare, finance, and tech rely on their expertise to optimize operations and predict trends."
+    },
+    {
+        "careerName": "Cybersecurity Analyst",
+        "skills": ["Ethical Hacking", "Network Security", "Incident Response", "Cryptography", "SIEM Tools (Splunk, Wireshark)"],
+        "alumniStudied": ["Cybersecurity", "Computer Science", "Information Technology"],
+        "longDescription": "Cybersecurity analysts protect organizations from cyber threats by monitoring systems, identifying vulnerabilities, and implementing defenses. They conduct penetration testing, respond to breaches, and ensure compliance with security standards (e.g., ISO 27001). With rising cyberattacks, this role is critical in sectors like finance, government, and healthcare."
+    },
+    {
+        "careerName": "AI/ML Engineer",
+        "skills": ["Deep Learning", "Natural Language Processing (NLP)", "Neural Networks", "Python (PyTorch, TensorFlow)", "Cloud AI Services"],
+        "alumniStudied": ["Computer Science", "Artificial Intelligence", "Machine Learning"],
+        "longDescription": "AI/ML engineers build intelligent systems, from recommendation engines to autonomous robots. They train models on large datasets, optimize algorithms, and deploy solutions using cloud platforms like AWS SageMaker. Expertise in math (linear algebra, calculus) and domain-specific applications (e.g., computer vision) is key."
+    },
+    {
+        "careerName": "DevOps Engineer",
+        "skills": ["CI/CD Pipelines", "Docker/Kubernetes", "Infrastructure as Code (Terraform)", "Cloud Platforms (AWS, Azure)", "Scripting (Bash, Python)"],
+        "alumniStudied": ["Computer Science", "Software Engineering", "IT Operations"],
+        "longDescription": "DevOps engineers bridge development and operations, automating deployments and ensuring system reliability. They manage cloud infrastructure, monitor performance, and troubleshoot outages. Familiarity with tools like Jenkins, Ansible, and Prometheus is crucial for streamlining workflows in tech companies."
+    },
+    {
+        "careerName": "Game Developer",
+        "skills": ["Game Engines (Unity, Unreal)", "C#/C++", "3D Modeling Basics", "Physics Simulation", "Multiplayer Networking"],
+        "alumniStudied": ["Game Design", "Computer Science", "Interactive Media"],
+        "longDescription": "Game developers create immersive experiences by coding gameplay mechanics, designing levels, and optimizing performance. They collaborate with artists and designers, often specializing in VR/AR or mobile gaming. The role demands creativity, math (for graphics), and knowledge of player psychology."
+    },
+    {
+        "careerName": "Cloud Architect",
+        "skills": ["Cloud Security", "Microservices Architecture", "Serverless Computing", "AWS/Azure/GCP", "Cost Optimization"],
+        "alumniStudied": ["Computer Science", "Cloud Computing", "Network Engineering"],
+        "longDescription": "Cloud architects design scalable, secure cloud infrastructures tailored to business needs. They migrate on-prem systems to the cloud, select services (e.g., AWS Lambda), and enforce best practices. Certifications like AWS Certified Solutions Architect are highly valued in this rapidly growing field."
+    },
+    {
+        "careerName": "Robotics Engineer",
+        "skills": ["ROS (Robot Operating System)", "Control Systems", "CAD Design", "Embedded Systems", "Python/C++"],
+        "alumniStudied": ["Robotics", "Mechanical Engineering", "Electrical Engineering"],
+        "longDescription": "Robotics engineers develop autonomous machines for manufacturing, healthcare, or exploration. They integrate sensors, write motion-planning algorithms, and test prototypes. This interdisciplinary field combines mechanical, electrical, and software engineering principles."
+    },
+    {
+        "careerName": "Blockchain Developer",
+        "skills": ["Smart Contracts (Solidity)", "Decentralized Apps (dApps)", "Cryptography", "Ethereum/Web3", "Consensus Algorithms"],
+        "alumniStudied": ["Computer Science", "Cryptography", "Finance"],
+        "longDescription": "Blockchain developers build secure, transparent systems for cryptocurrencies, NFTs, or supply chains. They write smart contracts, audit protocols, and work with distributed ledger technology. Knowledge of DeFi (Decentralized Finance) and scalability solutions (e.g., Layer 2) is increasingly important."
+    },
+    {
+        "careerName": "Quantitative Analyst",
+        "skills": ["Financial Modeling", "Stochastic Calculus", "Algorithmic Trading", "Python/R", "Risk Management"],
+        "alumniStudied": ["Applied Mathematics", "Finance", "Physics"],
+        "longDescription": "Quants use advanced math to analyze markets, price derivatives, and develop trading strategies. They work for hedge funds, banks, or fintech firms, often requiring expertise in stochastic processes and Monte Carlo simulations. A PhD is common in this highly competitive field."
+    },
+    {
+        "careerName": "Statistician",
+        "skills": ["Hypothesis Testing", "Regression Analysis", "Experimental Design", "R/SAS", "Data Mining"],
+        "alumniStudied": ["Statistics", "Mathematics", "Economics"],
+        "longDescription": "Statisticians interpret data to solve real-world problems, from clinical trials to marketing analytics. They design surveys, create predictive models, and communicate findings to stakeholders. Government agencies, research institutions, and tech companies heavily rely on their insights."
+    },
+    {
+        "careerName": "Actuary",
+        "skills": ["Probability Theory", "Financial Forecasting", "Risk Assessment", "Excel/VBA", "Insurance Regulations"],
+        "alumniStudied": ["Actuarial Science", "Mathematics", "Economics"],
+        "longDescription": "Actuaries evaluate financial risks for insurance companies, pensions, and investments. They pass rigorous exams (e.g., SOA/CAS) and use statistical models to set premiums or reserve funds. Strong business acumen and attention to detail are critical in this stable, high-paying career."
+    },
+    {
+        "careerName": "Cryptographer",
+        "skills": ["Number Theory", "Encryption Algorithms", "Quantum Resistance", "C/C++", "Security Protocols"],
+        "alumniStudied": ["Cryptography", "Mathematics", "Computer Science"],
+        "longDescription": "Cryptographers research and develop encryption methods to secure data against cyber threats. They work on cryptographic standards (e.g., AES, RSA), blockchain tech, or government defense systems. Advanced degrees are often required for theoretical roles in academia or NSA-like agencies."
+    },
+    {
+        "careerName": "Technical Writer",
+        "skills": ["Documentation Tools (Markdown, LaTeX)", "API Documentation", "Simplified Technical Communication", "Editing", "UX Writing"],
+        "alumniStudied": ["Technical Writing", "English", "Computer Science"],
+        "longDescription": "Technical writers translate complex information into user-friendly manuals, API docs, or whitepapers. They collaborate with engineers to ensure accuracy and clarity, often working in tech, healthcare, or engineering. Familiarity with tools like GitBook or Confluence is a plus."
+    },
+    {
+        "careerName": "Creative Writer",
+        "skills": ["Storytelling", "Character Development", "Editing", "Genre Specialization", "Publishing Industry Knowledge"],
+        "alumniStudied": ["Creative Writing", "English Literature", "Journalism"],
+        "longDescription": "Creative writers craft novels, screenplays, poetry, or video game narratives. They may freelance, work for publishers, or join media teams. Building a portfolio and networking are essential for success in this competitive, passion-driven field."
+    },
+    {
+        "careerName": "UX/UI Designer",
+        "skills": ["Wireframing (Figma, Sketch)", "User Research", "Prototyping", "Interaction Design", "Accessibility Standards"],
+        "alumniStudied": ["Human-Computer Interaction", "Graphic Design", "Psychology"],
+        "longDescription": "UX/UI designers create intuitive, visually appealing digital experiences. They conduct user testing, design workflows, and collaborate with developers. A strong portfolio showcasing case studies (e.g., mobile apps) is more valuable than degrees in this role."
+    },
+    {
+        "careerName": "Digital Artist",
+        "skills": ["2D/3D Animation", "Adobe Creative Suite", "Concept Art", "Motion Graphics", "VR/AR Design"],
+        "alumniStudied": ["Digital Arts", "Animation", "Fine Arts"],
+        "longDescription": "Digital artists produce visuals for games, films, or advertising. They may specialize in character design, VFX, or interactive media. Mastery of tools like Blender or Photoshop and a strong artistic foundation are crucial."
+    },
+    {
+        "careerName": "Literary Editor",
+        "skills": ["Copyediting", "Proofreading", "Manuscript Evaluation", "Publishing Software", "Genre Expertise"],
+        "alumniStudied": ["English", "Publishing", "Communications"],
+        "longDescription": "Literary editors refine manuscripts for clarity, coherence, and style. They work for publishers, agencies, or as freelancers, often specializing in fiction, academic, or technical content. A keen eye for detail and deep language knowledge are mandatory."
+    },
+    {
+        "careerName": "Mathematician",
+        "skills": ["Abstract Algebra", "Mathematical Modeling", "Topology", "Numerical Analysis", "Research Methodology"],
+        "alumniStudied": ["Pure Mathematics", "Applied Mathematics", "Physics"],
+        "longDescription": "Mathematicians conduct theoretical research or apply math to solve problems in cryptography, physics, or finance. Many work in academia, while others join industries like aerospace or data science. Advanced degrees are typical for research roles."
+    },
+    {
+        "careerName": "3D Modeler",
+        "skills": ["Blender/Maya", "Texturing", "Rigging", "Sculpting", "Photogrammetry"],
+        "alumniStudied": ["3D Animation", "Game Design", "Industrial Design"],
+        "longDescription": "3D modelers create assets for games, films, or product visualizations. They optimize meshes for real-time rendering and collaborate with animators. Specializations include organic (characters) or hard-surface (vehicles) modeling."
+    },
+    {
+        "careerName": "Systems Architect",
+        "skills": ["Enterprise Architecture", "System Integration", "Scalability Planning", "TOGAF Framework", "Networking Protocols"],
+        "alumniStudied": ["Computer Engineering", "Information Systems", "Network Security"],
+        "longDescription": "Systems architects design IT infrastructures to meet business goals, balancing performance, cost, and security. They evaluate technologies (e.g., hybrid cloud) and create blueprints for seamless system interoperability. Leadership and stakeholder management are key."
+    }
+]

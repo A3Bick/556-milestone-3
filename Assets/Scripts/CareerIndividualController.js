@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const careerTitle = urlParams.get('career');
 
     if (careerTitle) {
+        console.log("careerTitle check");
         // TODO: look for careerTitle in Data.Careers and update description
+        updateCareer(careerTitle);
     }
     // Get all buttons with the shared class name
     const buttons = document.querySelectorAll('.subpage');
@@ -30,3 +32,28 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+async function updateCareer(name){
+    let response = await fetch("./Assets/Data/AdditionalCareer.json");
+    let list = await response.json();
+    careerObj =  list.find(career => career.careerName === name);
+    console.log(careerObj);
+        console.log(careerObj.Object);
+        if(careerObj.skills){
+            console.log("Skills: "+careerObj.skills);
+            let skills = document.getElementById("careerSpecificYSK");
+            skills.innerHTML = "";
+            careerObj.skills.forEach(element => {
+                let skill = document.createElement('div');
+                skill.textContent = element
+                skills.appendChild(skill);
+            });
+        }
+        if(careerObj.alumniStudied){
+
+        }
+        if(careerObj.longDescription){
+
+        }
+}
