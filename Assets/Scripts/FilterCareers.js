@@ -80,7 +80,7 @@ filter.addEventListener('input', function(event){
     console.log("Something happened with filter!");
 
     // start by getting search text if inputted
-    let filterText = document.getElementsByClassName("filterSearch")[0].value;
+    let filterText = document.getElementsByClassName("filterSearch")[0].value.toLowerCase();
     console.log(filterText);
 
     // then we get every checkbox that is active

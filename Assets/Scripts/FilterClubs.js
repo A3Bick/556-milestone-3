@@ -26,7 +26,7 @@ function getclubs(){
         for(let j = 0; j < clubs[i].MeetDay.length; j++){
             timeString = timeString.concat(clubs[i].MeetDay[j], ", ");
         }
-        timeString = timeString.concat(clubs[i].MeetTime[0], ", ", clubs[i].MeetTime[1]);
+        timeString = timeString.concat(clubs[i].MeetTime);
 
         clubTimes.innerHTML = timeString;
 
@@ -97,7 +97,9 @@ filter.addEventListener('input', function(event){
                 // otherwise, see if one of the filter values correlates with one of the aspects of our club
                 else{
                     for(let j = 0; j < filterVals.length; j++){
-                        if(clubs[i].Industry == filterVals[j] || clubs[i].School == filterVals[j] || clubs[i].Major == filterVals[j]){
+                        console.log(filterVals[j]);
+                        console.log(clubs[i].MeetDay.join());
+                        if(clubs[i].Industry == filterVals[j] || clubs[i].School == filterVals[j] || clubs[i].Major == filterVals[j] || clubs[i].MeetDay.join().includes(filterVals[j]) || clubs[i].MeetTime == filterVals[j]){
                             validIds.push(clubs[i].clubID);
                         }
                     }
@@ -110,7 +112,7 @@ filter.addEventListener('input', function(event){
             }
             else{
                 for(let j = 0; j < filterVals.length; j++){
-                    if(clubs[i].Industry == filterVals[j] || clubs[i].School == filterVals[j] || clubs[i].Major == filterVals[j]){
+                    if(clubs[i].Industry == filterVals[j] || clubs[i].School == filterVals[j] || clubs[i].Major == filterVals[j] || clubs[i].MeetDay.join().includes(filterVals[j]) || clubs[i].MeetTime == filterVals[j]){
                         validIds.push(clubs[i].clubID);
                     }
                 }

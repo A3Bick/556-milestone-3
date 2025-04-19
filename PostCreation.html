@@ -15,7 +15,10 @@
                 <textarea id="postDesc" rows="5" cols="100" placeholder="Write Description here"></textarea>
                 <div id="postVideo">
                     <p>Post Video: </p>
-                    <img src="./Assets/Images/UploadButton.png" alt="UploadButton" id="UploadButton">
+                    <label for="file-input" class="UploadButton">
+                        <img src="./Assets/Images/UploadButton.png" alt="UploadButton" id="UploadButton">
+                    </label>
+                    <input id="file-input" type="file" hidden>
                 </div>
                 <label>Tags: <input type="text" id="postTags" placeholder="Input Text Here"></label>
                 <div id="exitButtons">

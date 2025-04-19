@@ -84,12 +84,14 @@ filter.addEventListener('input', function(event){
     console.log("Something happened with filter!");
 
     // start by getting search text if inputted
-    let filterText = document.getElementsByClassName("filterSearch")[0].value;
+    let filterText = document.getElementsByClassName("filterSearch")[0].value.toLowerCase();
     console.log(filterText);
 
     // then we get every checkbox that is active
     let activeChecks = filter.querySelectorAll('input[type="checkbox"]:checked');
     console.log(activeChecks);
+
+    let payText = document.getElementById("Pay").value;
 
     // from the checkboxes, we want the id of them, this is important
     let filterVals = [];
@@ -103,8 +105,35 @@ filter.addEventListener('input', function(event){
     let validIds = [];
     for(let i = 0; i < internships.length; i++){
 
-        // if we have search data, identify if the data appears in internship names
-        if(filterText.length > 0){
+        // if we have search data and paytext do a search for both
+        if(filterText.length > 0 && payText.length > 0){
+            if(internships[i].pay != "None"){
+                if(Number(internships[i].pay.slice(0, 2)) >= Number(payText)){
+                    if(internships[i].internshipName.toLowerCase().includes(filterText)){
+                        // if so, we must now check if there are any check filters, if not then we can add the id to valid ids
+                        if(filterVals.length == 0){
+                            validIds.push(internships[i].internshipID);
+                        }
+                        // otherwise, see if one of the filter values correlates with one of the aspects of our internship
+                        else{
+                            for(let j = 0; j < filterVals.length; j++){
+                                if(internships[i].Industry == filterVals[j] || internships[i].School == filterVals[j] || internships[i].Major == filterVals[j]){
+                                    validIds.push(internships[i].internshipID);
+                                }
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+        else if(payText.length > 0){
+            if(internships[i].pay != "None"){
+                if(Number(internships[i].pay.slice(0, 2)) >= Number(payText)){
+                    validIds.push(internships[i].internshipID);
+                }
+            }
+        }
+        else if(filterText.length > 0){
             console.log(internships[i].internshipName.toLowerCase());
             if(internships[i].internshipName.toLowerCase().includes(filterText)){
                 // if so, we must now check if there are any check filters, if not then we can add the id to valid ids

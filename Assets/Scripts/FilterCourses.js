@@ -95,7 +95,7 @@ filter.addEventListener('input', function(event){
     console.log("Something happened with filter!");
 
     // start by getting search text if inputted
-    let filterText = document.getElementsByClassName("filterSearch")[0].value;
+    let filterText = document.getElementsByClassName("filterSearch")[0].value.toLowerCase();
     console.log(filterText);
 
     // then we get every checkbox that is active
@@ -114,10 +114,10 @@ filter.addEventListener('input', function(event){
     let validIds = [];
     for(let i = 0; i < courses.length; i++){
 
-        // if we have search data, identify if the data appears in course names
+        // if we have search data, identify if the data appears in course names or skills
         if(filterText.length > 0){
             console.log(courses[i].courseName.toLowerCase());
-            if(courses[i].courseName.toLowerCase().includes(filterText)){
+            if(courses[i].courseName.toLowerCase().includes(filterText) || courses[i].skills.join().toLowerCase().includes(filterText)){
                 // if so, we must now check if there are any check filters, if not then we can add the id to valid ids
                 if(filterVals.length == 0){
                     validIds.push(courses[i].courseID);
