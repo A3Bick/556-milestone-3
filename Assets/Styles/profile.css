@@ -56,3 +56,19 @@
 #yourPlans > *{
     padding: 20px;
 }
+
+.profileCategory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileCategory > a{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border: solid 1px #FF624D;
+    color: #FF624D;
+    border-radius: 10px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Your Career</title>
+        <link rel="stylesheet" href="./Assets/Styles/Header.css">
+        <link rel="stylesheet" href="./Assets/Styles/InfoCreation.css">
+    </head>
+    <body>
+        <script src="./Assets/Scripts/ComponentDefs.js"></script>
+        <div class="createinfo">
+            <p>Add Information</p>
+            <form id="InfoForm">
+
+                <div>
+                    <label for="infoSelection">Info Type: </label>
+                    <select name="infoSelection" class="infoSelection">
+                        <option value="Internship">Internship</option>
+                        <option value="Club">Club</option>
+                    </select>
+                </div>
+
+                <label>Club/Internship Name: <input type="text" id="infoTitle" placeholder="Input Text Here"></label>
+                <p>Description:</p>
+                <textarea id="infoDesc" rows="5" cols="100" placeholder="Write Description here"></textarea>
+                <label>Tags: <input type="text" id="infoTags" placeholder="Input Text Here"></label>
+                <div id="exitButtons">
+                    <a href="Profile.html" id="cancel">Cancel</a>
+                    <a href="Profile.html" id="submit">Submit</a>
+                </div>
+                <button type="submit" hidden>No Touchy</button>
+            </form>
+        </div>
+    </body>
+</html>

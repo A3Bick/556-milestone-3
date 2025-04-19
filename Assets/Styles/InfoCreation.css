@@ -1,0 +1,81 @@
+.createinfo{
+    width: 75%;
+    margin-top: 25px;
+    margin: auto;
+}
+
+.createinfo > p{
+    font-size: large;
+    text-align: center;
+}
+
+#InfoForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoSelection{
+    width: 25%;
+}
+
+#InfoForm > label{
+    margin-top: 25px;
+}
+
+#infoTitle, #infoTags{
+    width: 85%;
+    background-color: #EEEE;
+    border-radius: 10px;
+}
+
+#infoRating{
+    background-color: #EEEE;
+    border-radius: 10px;
+    width: 40px;
+}
+
+#infoDesc{
+    width: 100%;
+    height: 150px;
+    background-color: #EEEE;
+    border-radius: 10px;
+}
+
+#infoVideo{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#UploadButton{
+    width: 190px;
+    height: 50px;
+}
+
+#exitButtons{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#cancel, #submit{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+#cancel{
+    border: solid black 1px;
+    background-color: #EAEAEA;
+}
+
+#submit{
+    width: 300px;
+    border: solid 1px #FF624D;
+    color: #FF624D;
+}
