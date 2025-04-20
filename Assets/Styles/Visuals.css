@@ -761,10 +761,6 @@ header > a{
     text-overflow: ellipsis;
 }
 
-.postDescription{
-    width: 302px;
-}
-
 .postFollow{
     height: 14px;
     width: 72px;

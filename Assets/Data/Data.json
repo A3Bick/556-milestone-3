@@ -77,7 +77,10 @@
         {
             "title": "A Day in the Life of a Software Engineer at a Tech Startup",
             "description": "Ever wondered what a software engineer actually does all day? Join me as I code, debug, and attend stand-up meetings at a fast-paced startup! From writing clean code to dealing with unexpected bugs, this is real life as a dev. 👨‍💻 #SoftwareEngineering #TechLife",
-            "videoUrl": "https://www.youtube.com/embed/U3ySiMerum0"
+            "videoUrl": "https://www.youtube.com/embed/U3ySiMerum0",
+            "authorPfp": "Assets/Images/AlumProfileImage2.png",
+            "author": "placeholder",
+            "authorTitle": "placeholder"
         },
         {
             "title": "A Data Scientist's Daily Routine: Python, Pandas & Coffee!",
