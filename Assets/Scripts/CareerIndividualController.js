@@ -51,9 +51,16 @@ async function updateCareer(name){
             });
         }
         if(careerObj.alumniStudied){
-
+            let majors = document.getElementById("careerSpecificAS");
+            majors.innerHTML = "";
+            careerObj.alumniStudied.forEach(element => {
+                let major = document.createElement('div');
+                major.textContent = element
+                majors.appendChild(major);
+            });
         }
         if(careerObj.longDescription){
-
+            let description = document.getElementById("careerSpecificDescription");
+            description.innerHTML = careerObj.longDescription;
         }
 }
