@@ -361,7 +361,15 @@ header > a{
 }
 
 #makePost{
-    margin: 20px auto;
+    margin: 80px auto 20px;
+    width: 800px;
+    height: 28px;
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: center;
+    color: #3F3F3F;
+    border-radius: 30px;
+    border: 1px solid #6A6A6A;
 }
 
 /* For Recommendation Creation and Post Creation */
