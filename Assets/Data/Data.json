@@ -312,7 +312,7 @@
             "clubName": "Robotics",
             "MeetDay": ["M", "W"],
             "MeetTime": "6-7",
-            "clubDesc": "Here at robotics we...",
+            "clubDesc": "The Robotics Club is a dynamic community where students design, build, and program robots for competitions and research projects. Whether you're a beginner or an expert, join us to explore AI, automation, and robotics engineering through hands-on workshops, hackathons, and industry collaborations.",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -322,7 +322,7 @@
             "clubName": "Art Club",
             "MeetDay": ["T", "Th"],
             "MeetTime": "10-11",
-            "clubDesc": "Here at the art club we...",
+            "clubDesc": "The Art Club is a creative haven for students passionate about painting, sketching, sculpture, and digital art. We host weekly studio sessions, guest artist workshops, and exhibitions to help members refine their skills and express their artistic vision. All skill levels are welcome!",
             "Industry": "Arts/Literature",
             "School": "Arts",
             "Major": "Arts"
@@ -332,7 +332,7 @@
             "clubName": "Book Club",
             "MeetDay": ["W"],
             "MeetTime": "1-2",
-            "clubDesc": "We meet every week to discuss our favorite...",
+            "clubDesc": "The Book Club is a lively literary circle where members discuss thought-provoking novels, short stories, and poetry. We explore diverse genres, host author Q&As, and organize reading challenges. If you love getting lost in a good book and sharing insights, this is the club for you!",
             "Industry": "Arts/Literature",
             "School": "Arts",
             "Major": "Literature"
@@ -342,7 +342,7 @@
             "clubName": "Racing",
             "MeetDay": ["T", "Th"],
             "MeetTime": "10-11",
-            "clubDesc": "Here at Racing we...",
+            "clubDesc": "The Racing Club is an adrenaline-fueled team that designs and races high-performance vehicles in national competitions. Members gain hands-on experience in mechanical engineering, aerodynamics, and teamwork while working on cutting-edge automotive projects. No prior experience required—just a passion for speed and innovation!",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -352,7 +352,7 @@
             "clubName": "Coding Club",
             "MeetDay": ["S", "Sun"],
             "MeetTime": "12-1",
-            "clubDesc": "At the programming club we...",
+            "clubDesc": "The Coding Club is a hub for tech enthusiasts to sharpen their programming skills through collaborative projects, coding competitions, and hackathons. We cover topics like web development, machine learning, and cybersecurity, offering mentorship and networking opportunities with industry professionals.",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -365,7 +365,7 @@
             "pay": "None",
             "skills": ["UX Design"],
             "qualities": ["Minimum 2 years experience"],
-            "internshipDesc": "Here at our corporation, we stride to provide our highest quality...",
+            "internshipDesc": "Join our innovative tech team as a Front End Developer Intern! You'll work on real-world projects, designing intuitive user interfaces and optimizing web applications. This role offers mentorship from senior developers and the chance to contribute to high-impact products. Perfect for aspiring software engineers looking to build industry experience.",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -376,7 +376,7 @@
             "pay": "12/hour",
             "skills": ["Science, Research"],
             "qualities": ["No Experience Neccessary"],
-            "internshipDesc": "Here at important research lab, we seek answers to the world around us...",
+            "internshipDesc": "Dive into groundbreaking research as a Science Research Intern! Assist our team in conducting experiments, analyzing data, and publishing findings in fields like biology, chemistry, or physics. This role is ideal for students eager to explore scientific careers and gain hands-on lab experience.",
             "Industry": "Science",
             "School": "Science",
             "Major": "Science"
@@ -387,7 +387,7 @@
             "pay": "12/hour",
             "skills": ["Science, Research"],
             "qualities": ["No Experience Neccessary"],
-            "internshipDesc": "Here at important research lab, we seek answers to the world around us...",
+            "internshipDesc": "Help tackle climate change as an Environmental Research Intern! You'll participate in field studies, collect ecological data, and contribute to sustainability initiatives. This internship is perfect for students passionate about conservation and environmental policy.",
             "Industry": "Science",
             "School": "Science",
             "Major": "Science"
@@ -398,7 +398,7 @@
             "pay": "15/hr",
             "skills": ["Literature"],
             "qualities": ["No Experience Neccessary"],
-            "internshipDesc": "At some publishing company, we want to help teach the world important lessons...",
+            "internshipDesc": "Kickstart your writing career with our Publishing Internship! You'll craft articles, edit manuscripts, and collaborate with authors to bring stories to life. This role offers exposure to the publishing industry and mentorship from seasoned writers.",
             "Industry": "Arts/Literature",
             "School": "Arts",
             "Major": "Arts"
@@ -409,7 +409,7 @@
             "pay": "25/hour",
             "skills": ["UX Design"],
             "qualities": ["No Experience Neccessary"],
-            "internshipDesc": "Here at our corporation, we stride to provide our highest quality...",
+            "internshipDesc": "Jumpstart your tech career with this competitive Front End Developer Internship! You'll build responsive web applications, collaborate with cross-functional teams, and receive training in cutting-edge frameworks. Ideal for coding bootcamp grads or CS students seeking real-world experience.",
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
