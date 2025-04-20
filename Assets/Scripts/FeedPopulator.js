@@ -66,9 +66,15 @@ async function fetchPosts(){
 async function populatePosts(){
     let list = await fetchPosts();
     console.log(list);
+    var first = true;
     list.forEach(alumniData => {
         const alumniCard = createPostCard(alumniData);
         const container = document.getElementById("postFeed");
+        if(!first){
+            container.innerHTML+="<hr>";
+        }else{
+            first = false;
+        }
         container.appendChild(alumniCard);
     });
 }

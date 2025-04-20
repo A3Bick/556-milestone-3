@@ -707,10 +707,13 @@ header > a{
     flex-direction: column;
 }
 
+#postFeed > hr{
+    width: 800px;
+}
+
 .postCard{
     width: 730px;
     height: 430px;
-    border: 1px solid #000;
     display: flex;
     margin: 10px auto;
     padding: 35px;

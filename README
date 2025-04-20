@@ -6,4 +6,6 @@ Starting Local server instructions:
 Note: in my case my executable's name is py, so the full command is: py -m http.server
 4. open any browser and visit: http://localhost:8000/
 
+Github Pages (updates can take ~10 mins after git push): https://a3bick.github.io/556-milestone-3/
+
 Website (potentially out of date): http://ec2-3-149-249-82.us-east-2.compute.amazonaws.com:8000/CareerHome.html
