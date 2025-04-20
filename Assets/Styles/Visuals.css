@@ -279,7 +279,7 @@ header > a{
     padding: 16px;
 }
 
-.addRecommendedCourse{
+.addRecommendedCourse, .postLike{
     width: 30px;
     height: 30px;
     float: right;
@@ -292,8 +292,9 @@ header > a{
     margin: auto;
 }
 
-.approvalStamp{
-    width: 80px;
+
+.approvalStamp, .postFollow{
+    max-width: 80px;
     height: 13px;
     color: #2020D2;
     font-size: 7px;
@@ -707,19 +708,45 @@ header > a{
 }
 
 .postCard{
-    width: 800px;
-    height: 400px;
+    width: 730px;
+    height: 430px;
     border: 1px solid #000;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto;
+    margin: 10px auto;
+    padding: 35px;
 }
 
-.postVideoCell{
-    height: 200px;
-    width: 302px;
-    border: 1px solid #939393;
+.postCard > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 35px;
+}
+
+.postCardContent{
+    width: 490px;
+}
+
+.postCardContent > iframe{
+    height: 280px;
+    width: 490px;
+    resize: both;
+    overflow: auto;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.postAuthor{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.postAuthorTitle{
+    color: #545454;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0 20px;
 }
 
 .postDescription, .postTitle{
@@ -735,7 +762,20 @@ header > a{
 }
 
 .postDescription{
-    width: 750px;
+    width: 302px;
+}
+
+.postFollow{
+    height: 14px;
+    width: 72px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0;
+    margin: 0;
+}
+
+.postLike{
+    margin-left: 35px;
 }
 
 #createPostForm > a{
