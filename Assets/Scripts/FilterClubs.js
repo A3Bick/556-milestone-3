@@ -10,6 +10,10 @@ function getclubs(){
 
     // for every entry from our json file...
     for(let i = 0; i < clubs.length; i++){
+        // get image 
+        const clubImage = document.createElement("img")
+        clubImage.className = "internshipImage"
+        clubImage.src = clubs[i].clubImage || "../Assets/Images/Club1.jpeg";
 
         // get name, rating, skills, tags, etc...
         const clubInfo = document.createElement("div");
@@ -36,9 +40,12 @@ function getclubs(){
 
 
         // put it all together in a neat little card
-        clubInfo.appendChild(clubName);
-        clubInfo.appendChild(clubTimes);
-        clubInfo.appendChild(clubDesc);
+        clubInfo.appendChild(clubImage);
+        const clubInner = document.createElement("div");
+        clubInner.appendChild(clubName);
+        clubInner.appendChild(clubTimes);
+        clubInner.appendChild(clubDesc);
+        clubInfo.appendChild(clubInner);
 
         clubInfo.id = clubs[i].clubID;
         clubIDs.push(clubs[i].clubID);
