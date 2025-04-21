@@ -99,7 +99,7 @@ header > a{
 }
 
 #activeCourses{
-    width: 900px;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -284,6 +284,7 @@ header > a{
     border-radius: 10px;
     border: 1px solid rgba(16, 47, 125, 0.16);
     padding: 16px;
+    margin: 10px auto
 }
 
 .addRecommendedCourse, .postLike{
