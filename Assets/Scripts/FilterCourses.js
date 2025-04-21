@@ -75,6 +75,13 @@ function getCourses(){
 
         activeCourses.appendChild(courseCard);
     }
+    document.querySelectorAll(".addRecommendedCourse").forEach(element => {
+        console.log("adding listener");
+        element.addEventListener("click", function() {
+            console.log("clicked");
+            alert("Course Successfully Added!");
+        });
+    });
 }
 
 // load up our json file
