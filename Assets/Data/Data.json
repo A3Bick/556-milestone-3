@@ -419,6 +419,14 @@
             "authorPfp": "Assets/Images/ActualProfile5.jpg",
             "author": "Nicole Enesse",
             "authorTitle": "Cybersecurity Analyst"
+        },
+        {
+            "title": "A Day in the Life of a Machine Learning Engineer (at a *small* startup)",
+            "description": "A day in the life of a machine learning engineer at a small startup from Brisbane, Australia called Nutrify. Nutrify uses computer vision to make learning about and tracking whole foods fun.",
+            "videoUrl": "https://www.youtube.com/embed/O0H2m_r-ZhI?si=-3o-4iOZNZMdJAer",
+            "authorPfp": "Assets/Images/ActualProfile6.jpg",
+            "author": "Daniel Bourke",
+            "authorTitle": "AI Researcher"
         }
     ],
     "Careers":[

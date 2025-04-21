@@ -838,3 +838,17 @@ header > a{
     width: 25%;
     align-self: center;
 }
+
+.RecommendationCreationButton{
+    display: block;
+    width: 250px;
+    height: 30px;
+    border: solid 1px #FF624D;
+    color: #FF624D;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
