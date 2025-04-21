@@ -76,10 +76,19 @@ function getCourses(){
         activeCourses.appendChild(courseCard);
     }
     document.querySelectorAll(".addRecommendedCourse").forEach(element => {
-        console.log("adding listener");
         element.addEventListener("click", function() {
-            console.log("clicked");
-            alert("Course Successfully Added!");
+            if(element.children[0].tagName === "svg"){
+                alert("Course Successfully Added!");
+                element.innerHTML = `<img alt="" style="width: 15px;height: 15px; position: relative;top: 7.5px;left: 7.5px;rotate: 45deg;" src="./Assets/Shapes/Component 26.svg">`
+            }else{
+                alert("Course Successfully Removed!");
+                element.innerHTML = `
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                        <path d="M0 7H15" stroke="#2020D2"/>
+                        <path d="M7.5 0V14" stroke="#2020D2"/>
+                    </svg>
+                `;
+            }
         });
     });
 }
