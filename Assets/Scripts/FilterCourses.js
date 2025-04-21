@@ -143,7 +143,7 @@ filter.addEventListener('input', function(event){
                 // otherwise, see if one of the filter values correlates with one of the aspects of our course
                 else{
                     for(let j = 0; j < filterVals.length; j++){
-                        if(courses[i].Industry == filterVals[j] || courses[i].School == filterVals[j] || courses[i].Major == filterVals[j]){
+                        if(courses[i].Industry == filterVals[j] || courses[i].School == filterVals[j] || courses[i].Major == filterVals[j] || courses[i].Days.includes(filterVals[j])){
                             validIds.push(courses[i].courseID);
                         }
                     }
@@ -156,7 +156,7 @@ filter.addEventListener('input', function(event){
             }
             else{
                 for(let j = 0; j < filterVals.length; j++){
-                    if(courses[i].Industry == filterVals[j] || courses[i].School == filterVals[j] || courses[i].Major == filterVals[j]){
+                    if(courses[i].Industry == filterVals[j] || courses[i].School == filterVals[j] || courses[i].Major == filterVals[j] || courses[i].Days.includes(filterVals[j])){
                         validIds.push(courses[i].courseID);
                     }
                 }
