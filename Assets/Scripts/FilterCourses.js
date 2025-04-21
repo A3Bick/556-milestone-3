@@ -1,3 +1,52 @@
+function createRecommendedCourseCard(courseData) {
+    // Create the main card container
+    const card = document.createElement('div');
+    card.className = 'recommendedCourseCard';
+
+    // Create the "add" button with SVG
+    const addButton = document.createElement('div');
+    addButton.className = 'addRecommendedCourse';
+    addButton.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+            <path d="M0 7H15" stroke="#2020D2"/>
+            <path d="M7.5 0V14" stroke="#2020D2"/>
+        </svg>
+    `;
+    card.appendChild(addButton);
+
+    // Create the approval stamp if the course is alumni approved
+    
+    const approvalStamp = document.createElement('div');
+    approvalStamp.className = 'approvalStamp';
+    approvalStamp.textContent = 'Alumni Approved';
+    if (!"Alumni Approved" in courseData.Tags) {
+        approvalStamp.style = 'visibility: hidden;';
+    }
+    card.appendChild(approvalStamp);
+    
+
+    // Create the course name and title section
+    const courseName = document.createElement('div');
+    courseName.className = 'recommendedCourseCardName';
+    courseName.innerHTML = `
+        <p class="code">${courseData.School}</p>
+        <p class="title">${courseData.courseName}</p>
+    `;
+    card.appendChild(courseName);
+
+    // Create the course info section
+    const courseInfo = document.createElement('div');
+    courseInfo.className = 'recommendedCourseCardInfo';
+    courseInfo.innerHTML = `
+        <p>
+            ${courseData.description || ''}
+        </p>
+    `;
+    card.appendChild(courseInfo);
+
+    return card;
+}
+
 // this function extracts and builds our courses from our Data.json file
 function getCourses(){
 
@@ -10,68 +59,10 @@ function getCourses(){
 
     // for every entry from our json file...
     for(let i = 0; i < courses.length; i++){
+        
+        const courseCard = createRecommendedCourseCard(courses[i]);
 
-        // get name, rating, skills, tags, etc...
-        const courseInfo = document.createElement("div");
-        courseInfo.className = "courseCard";
-
-        const courseCardTop = document.createElement("div");
-        courseCardTop.className = "courseCardTop";
-
-        const courseName = document.createElement("p");
-        courseName.className = "courseTitle";
-        courseName.innerHTML = courses[i].courseName;
-
-        const addButton = document.createElement("button");
-        addButton.className = "addToPlan";
-        addButton.innerHTML = "Add to Plan";
-
-        courseCardTop.appendChild(courseName);
-        courseCardTop.appendChild(addButton);
-
-        const courseRating = document.createElement("p");
-        courseRating.className="courseRating";
-        courseRating.innerHTML = "Rating: ".concat(courses[i].courseRating);
-
-        const skills = document.createElement("p");
-        let skillString = "Skills: ";
-        for(let j = 0; j < courses[i].skills.length; j++){
-            skillString = skillString.concat(courses[i].skills[j], " ");
-        }
-        skills.className="courseSkills";
-        skills.innerHTML = skillString;
-
-
-        let dayString = "Days and Times: ";
-        for(let j = 0; j < courses[i].Days.length; j++){
-            dayString = dayString.concat(courses[i].Days[j], ", ");
-        }
-
-        const times = document.createElement("p");
-        dayString = dayString.concat(courses[i].Times[0], "-", courses[i].Times[1]);
-        times.className="courseTimes";
-        times.innerHTML = dayString;
-
-        const Tags = document.createElement("p");
-        let tagString = "Tags: ";
-        for(let j = 0; j < courses[i].Tags.length; j++){
-            tagString = tagString.concat(courses[i].Tags[j], " ");
-        }
-
-        Tags.innerHTML = tagString;
-        Tags.className = "courseTags";
-
-        // put it all together in a neat little card
-        courseInfo.appendChild(courseCardTop);
-        courseInfo.appendChild(courseRating);
-        courseInfo.appendChild(skills);
-        courseInfo.appendChild(times);
-        courseInfo.appendChild(Tags);
-
-        courseInfo.id = courses[i].courseID;
-        courseIDs.push(courses[i].courseID);
-
-        activeCourses.appendChild(courseInfo);
+        activeCourses.appendChild(courseCard);
     }
 }
 

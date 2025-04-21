@@ -3,6 +3,7 @@
         {
             "courseID": 1,
             "courseName": "CSE 101",
+            "description": "An introduction to software concepts and implementation, emphasizing problem solving through abstraction and decomposition. Introduces processes and algorithms, procedural abstraction, data abstraction, encapsulation, and object-oriented programming.",
             "courseRating": 4.5,
             "skills": ["Software Engineering"],
             "Days": ["T", "Th"],
@@ -15,6 +16,7 @@
         {
             "courseID": 2,
             "courseName": "CSE 556",
+            "description": "An introduction to user centered design processes. The course covers a variety of HCI techniques for use at different stages in the software development cycle, including techniques that can be used with and without users.",
             "courseRating": 4.5,
             "skills": ["UX Design"],
             "Days": ["M", "W"],
@@ -27,6 +29,7 @@
         {
             "courseID": 3,
             "courseName": "CSE 231",
+            "description": "This course explores concepts, techniques, and design approaches for parallel and concurrent programming. We study how to write programs that make use of multiple processors for responsiveness and that share resources reliably and fairly. ",
             "courseRating": 5,
             "skills": ["Parallel Programming"],
             "Days": ["M", "W"],
@@ -38,7 +41,8 @@
         },
         {
             "courseID": 4,
-            "courseName": "Placeholder",
+            "courseName": "CSE 132",
+            "description": "Introduces students to fundamental concepts in the basic operation of computers, ranging from desktops and servers to microcontrollers and handheld devices.",
             "courseRating": 9999,
             "skills": ["Something Interesting"],
             "Days": ["M", "W"],
@@ -50,7 +54,8 @@
         },
         {
             "courseID": 5,
-            "courseName": "Placeholder",
+            "courseName": "CSE 330",
+            "description": "This course uses web development as a vehicle for developing skills in rapid prototyping. Students acquire the skills to build a Linux web server in Apache, to write a web site from scratch in PHP, to run an SQL database, to perform scripting in Python, and to develop modern web applications in client-side and server-side JavaScript.",
             "courseRating": 9999,
             "skills": ["Something Interesting"],
             "Days": ["M", "W"],
@@ -62,7 +67,8 @@
         },
         {
             "courseID": 6,
-            "courseName": "Placeholder",
+            "courseName": "CSE 332",
+            "description": "Intensive focus on practical aspects of designing, implementing and debugging software, using object-oriented, procedural, and generic programming techniques.",
             "courseRating": 9999,
             "skills": ["Something Interesting"],
             "Days": ["M", "W"],
