@@ -58,10 +58,10 @@ header > a{
 }
 
 .filter{
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 25%;
-    text-align: center;
+    color: #5D5D5D;
+    width: 320px;
+    padding: 25px;
+    text-align: left;
 }
 
 .filter > *{
@@ -69,17 +69,23 @@ header > a{
 }
 
 .filterSearch{
-    width: 90%;
-    background-color: #E4E4E4;
-    text-align: center;
-    border: solid black 1px;
-    border-radius: 10px;
+    width: 320px;
+    height: 25px;
+    padding: 0 0 0 10px;
+    border-radius: 20px;
+    border-style: hidden;
+    background: #E4E4E4;
 }
 
 .selectionOptions{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items:first baseline;
+}
+
+.selectionOptions > div{
+    width: 160px;
 }
 
 .courseInfo > p{
@@ -93,7 +99,7 @@ header > a{
 }
 
 #activeCourses{
-    width: 75%;
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -109,7 +115,7 @@ header > a{
 }
 
 #activeClubs{
-    width: 75%;
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

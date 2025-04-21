@@ -52,6 +52,10 @@ function getclubs(){
 
         activeclubs.appendChild(clubInfo);
     }
+    // prevents collapse when filter returns nothing
+    const hiddenDiv = document.createElement("div");
+    hiddenDiv.style.width = "900px";
+    activeclubs.appendChild(hiddenDiv);
 }
 
 // load up our json file

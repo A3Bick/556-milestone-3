@@ -6,9 +6,10 @@
     </head>
     <body>
         <script src="./Assets/Scripts/ComponentDefs.js"></script>
-        <div id="internships">
+        <div id="internships" class="pageWrapper">
             <form class="filter" id="classFilter">
-                <input type="text" placeholder="Search" class="filterSearch">
+                <p><label id="filterTitle" for="filterSearch">Filter</label></p>
+                <input id="filterSearch" type="text" placeholder="Search" class="filterSearch">
                 <div class="filterCategory">
                     <p>Industry</p>
                     <div class="selectionOptions">
@@ -22,7 +23,7 @@
                         </div>
                         <div>
                             <input type="checkbox" id="Mathematics">
-                            <label for="Tech">Mathematics</label>
+                            <label for="Mathematics">Mathematics</label>
                         </div>
                         <div>
                             <input type="checkbox" id="Science">

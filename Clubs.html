@@ -6,9 +6,10 @@
     </head>
     <body>
         <script src="./Assets/Scripts/ComponentDefs.js"></script>
-        <div id="clubs">
+        <div id="clubs" class="pageWrapper">
             <form class="filter" id="classFilter">
-                <input type="text" placeholder="Search" class="filterSearch">
+                <p><label id="filterTitle" for="filterSearch">Filter</label></p>
+                <input id="filterSearch" type="text" placeholder="Search" class="filterSearch">
                 <div class="filterCategory">
                     <p>Industry</p>
                     <div class="selectionOptions">
@@ -22,7 +23,7 @@
                         </div>
                         <div>
                             <input type="checkbox" id="Mathematics">
-                            <label for="Tech">Mathematics</label>
+                            <label for="Mathematics">Mathematics</label>
                         </div>
                         <div>
                             <input type="checkbox" id="Science">
@@ -75,38 +76,26 @@
                             <input type="checkbox" id="M">
                             <label for="M">M</label>
                         </div>
-                    </div>
-                    <div class="selectionOptions">
                         <div>
                             <input type="checkbox" id="T">
                             <label for="T">T</label>
                         </div>
-                    </div>
-                    <div class="selectionOptions">
                         <div>
                             <input type="checkbox" id="W">
                             <label for="W">W</label>
                         </div>
-                    </div>
-                    <div class="selectionOptions">
                         <div>
                             <input type="checkbox" id="Th">
                             <label for="Th">Th</label>
                         </div>
-                    </div>
-                    <div class="selectionOptions">
                         <div>
                             <input type="checkbox" id="F">
                             <label for="F">F</label>
                         </div>
-                    </div>
-                    <div class="selectionOptions">
                         <div>
                             <input type="checkbox" id="S">
                             <label for="S">S</label>
                         </div>
-                    </div>
-                    <div class="selectionOptions">
                         <div>
                             <input type="checkbox" id="Sun">
                             <label for="Sun">Sun</label>
