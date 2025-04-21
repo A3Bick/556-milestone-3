@@ -93,7 +93,7 @@
             "skills": ["UX Design", "Graphic Interfacing"],
             "Days": ["T", "Th"],
             "Times": ["10", "11"],
-            "Tags": ["Career-Focused", "Industry Applications"],
+            "Tags": ["Career-Focused", "Alumni Approved", "Industry Applications"],
             "Industry": "Tech",
             "School": "Engineering",
             "Major": "CS"
@@ -163,7 +163,7 @@
             "skills": ["IP Law", "Legal Research"],
             "Days": ["W", "F"],
             "Times": ["10", "12"],
-            "Tags": ["Specialized Law", "Business Law"],
+            "Tags": ["Specialized Law", "Alumni Approved", "Business Law"],
             "Industry": "Law",
             "School": "Law",
              "Major": "Lawyer"
@@ -233,7 +233,7 @@
             "skills": ["Circuit Analysis", "Electronics"],
             "Days": ["T", "Th"],
             "Times": ["14", "16"],
-            "Tags": ["Engineering Core", "Lab Required"],
+            "Tags": ["Engineering Core", "Alumni Approved", "Lab Required"],
             "Industry": "Tech/Engineering",
             "School": "Tech/Engineering",
             "Major": "Tech/Engineering"
@@ -289,7 +289,7 @@
             "skills": ["Comparative Literature", "Critical Analysis"],
             "Days": ["M", "F"],
             "Times": ["15", "17"],
-            "Tags": ["Humanities Core", "Diverse Perspectives"],
+            "Tags": ["Humanities Core", "Alumni Approved", "Diverse Perspectives"],
             "Industry": "Arts/Literature",
             "School": "Business",
             "Major": "Writing"
