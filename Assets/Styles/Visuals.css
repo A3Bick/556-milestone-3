@@ -570,7 +570,7 @@ header > a{
 }
 
 /* For the Course Cards */
-.courseCard{
+/* .courseCard{
     width: 300px;
     height: 300px;
     border: 1px solid #cfcfcf;
@@ -583,7 +583,7 @@ header > a{
 .courseCard > *{
     font-size: medium;
     margin: 5px 10px;
-}
+} */
 
 .courseCardTop{
     height: 1.2em;

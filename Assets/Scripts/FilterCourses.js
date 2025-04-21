@@ -1,7 +1,8 @@
 function createRecommendedCourseCard(courseData) {
     // Create the main card container
     const card = document.createElement('div');
-    card.className = 'recommendedCourseCard';
+    card.className = 'recommendedCourseCard courseCard';
+    card.id = courseData.courseID;
 
     // Create the "add" button with SVG
     const addButton = document.createElement('div');
@@ -137,7 +138,7 @@ filter.addEventListener('input', function(event){
         }
     }
 
-    console.log(validIds);
+    console.log(`valid IDs: ${validIds}`);
 
     // now that we finally have a set of valid ids, we can hide those that shouldn't be seen
     const courseCards = document.getElementsByClassName("courseCard");
