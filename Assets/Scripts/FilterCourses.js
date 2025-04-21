@@ -30,20 +30,27 @@ function createRecommendedCourseCard(courseData) {
     const courseName = document.createElement('div');
     courseName.className = 'recommendedCourseCardName';
     courseName.innerHTML = `
-        <p class="code">${courseData.School}</p>
+        <p class="code">${courseData.code}</p>
         <p class="title">${courseData.courseName}</p>
     `;
     card.appendChild(courseName);
 
     // Create the course info section
+    let days = "M/W";
+    if((courseData.Days.length) > 1){
+        days = courseData.Days[0] + "/" + courseData.Days[1];
+    }
+    let times = "10-11";
+    if((courseData.Times.length) > 1){
+        times = courseData.Times[0] + "-" + courseData.Times[1];
+    }
     const courseInfo = document.createElement('div');
     courseInfo.className = 'recommendedCourseCardInfo';
     courseInfo.innerHTML = `
         <p>
-            Times: ${courseData.Times || '10'}
-        </p>
-        <p>
-            ${courseData.description || ''}
+            Rating: ${courseData.courseRating}<br>
+            Skills: ${courseData.skills}<br>
+            Times: ${days}, ${courseData.Times || '10'}
         </p>
     `;
     card.appendChild(courseInfo);

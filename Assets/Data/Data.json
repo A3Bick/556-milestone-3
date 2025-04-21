@@ -2,7 +2,8 @@
     "Courses":[
         {
             "courseID": 1,
-            "courseName": "CSE 101",
+            "courseName": "Introduction to Computer Science",
+            "code": "CSE 101",
             "description": "An introduction to software concepts and implementation, emphasizing problem solving through abstraction and decomposition. Introduces processes and algorithms, procedural abstraction, data abstraction, encapsulation, and object-oriented programming.",
             "courseRating": 4.5,
             "skills": ["Software Engineering"],
@@ -14,21 +15,9 @@
             "Major": "CS"
         },
         {
-            "courseID": 2,
-            "courseName": "CSE 556",
-            "description": "An introduction to user centered design processes. The course covers a variety of HCI techniques for use at different stages in the software development cycle, including techniques that can be used with and without users.",
-            "courseRating": 4.5,
-            "skills": ["UX Design"],
-            "Days": ["M", "W"],
-            "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"],
-            "Industry": "Tech",
-            "School": "Engineering",
-            "Major": "CS"
-        },
-        {
             "courseID": 3,
-            "courseName": "CSE 231",
+            "courseName": "Intro to Parallel",
+            "code": "CSE 231",
             "description": "This course explores concepts, techniques, and design approaches for parallel and concurrent programming. We study how to write programs that make use of multiple processors for responsiveness and that share resources reliably and fairly. ",
             "courseRating": 5,
             "skills": ["Parallel Programming"],
@@ -41,10 +30,11 @@
         },
         {
             "courseID": 4,
-            "courseName": "CSE 132",
+            "courseName": "Intro to Computer Engineering",
+            "code": "CSE 132",
             "description": "Introduces students to fundamental concepts in the basic operation of computers, ranging from desktops and servers to microcontrollers and handheld devices.",
-            "courseRating": 9999,
-            "skills": ["Something Interesting"],
+            "courseRating": 3.2,
+            "skills": ["Circuitry", "Sensors"],
             "Days": ["M", "W"],
             "Times": ["10", "11"],
             "Tags": ["Recommended for you", "Alumni Approved"],
@@ -52,36 +42,10 @@
             "School": "Engineering",
             "Major": "CS"
         },
-        {
-            "courseID": 5,
-            "courseName": "CSE 330",
-            "description": "This course uses web development as a vehicle for developing skills in rapid prototyping. Students acquire the skills to build a Linux web server in Apache, to write a web site from scratch in PHP, to run an SQL database, to perform scripting in Python, and to develop modern web applications in client-side and server-side JavaScript.",
-            "courseRating": 9999,
-            "skills": ["Something Interesting"],
-            "Days": ["M", "W"],
-            "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"],
-            "Industry": "Tech",
-            "School": "Engineering",
-            "Major": "CS"
-        },
-        {
-            "courseID": 6,
-            "courseName": "CSE 332",
-            "description": "Intensive focus on practical aspects of designing, implementing and debugging software, using object-oriented, procedural, and generic programming techniques.",
-            "courseRating": 9999,
-            "skills": ["Something Interesting"],
-            "Days": ["M", "W"],
-            "Times": ["10", "11"],
-            "Tags": ["Recommended for you", "Alumni Approved"],
-            "Industry": "Tech",
-            "School": "Engineering",
-            "Major": "CS"
-        },
-    
         {
             "courseID": 7,
-            "courseName": "MATH 210",
+            "courseName": "Linear Algebra",
+            "code": "MATH 210",
             "description": "Introduction to linear algebra, covering vectors, matrices, determinants, eigenvalues, and applications in engineering and data science.",
             "courseRating": 4.3,
             "skills": ["Linear Algebra", "Problem Solving"],
@@ -94,7 +58,8 @@
         },
         {
             "courseID": 8,
-            "courseName": "LAW 301",
+            "courseName": "Constitutional Law",
+            "code": "LAW 301",
             "description": "Fundamentals of constitutional law, including judicial review, federalism, separation of powers, and individual rights under the U.S. Constitution.",
             "courseRating": 4.7,
             "skills": ["Legal Analysis", "Constitutional Law"],
@@ -107,7 +72,8 @@
         },
         {
             "courseID": 9,
-            "courseName": "WRIT 205",
+            "courseName": "Advanced Composition",
+            "code": "WRIT 205",
             "description": "Advanced composition and rhetoric, focusing on argumentation, research-based writing, and stylistic techniques for persuasive communication.",
             "courseRating": 4.2,
             "skills": ["Writing", "Critical Thinking"],
@@ -119,8 +85,23 @@
             "Major": "Writing"
         },
         {
+            "courseID": 27,
+            "courseName": "Intro to HCI",
+            "code": "CSE 256",
+            "description": "Intro to humand-computer interaction",
+            "courseRating": 4.9,
+            "skills": ["UX Design", "Graphic Interfacing"],
+            "Days": ["T", "Th"],
+            "Times": ["10", "11"],
+            "Tags": ["Career-Focused", "Industry Applications"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
             "courseID": 10,
-            "courseName": "PHYS 150",
+            "courseName": "Physics",
+            "code": "PHYS 150",
             "description": "Principles of classical mechanics, thermodynamics, and waves, with applications in engineering and modern physics.",
             "courseRating": 4.4,
             "skills": ["Physics", "Problem Solving"],
@@ -133,7 +114,8 @@
         },
         {
             "courseID": 11,
-            "courseName": "DATA 220",
+            "courseName": "Data Statistics",
+            "code": "DATA 220",
             "description": "Introduction to statistical methods and probability theory for data analysis, including hypothesis testing and regression models.",
             "courseRating": 4.6,
             "skills": ["Statistics", "Data Analysis"],
@@ -146,7 +128,8 @@
         },
         {
             "courseID": 12,
-            "courseName": "ENG 250",
+            "courseName": "British Literature",
+            "code": "ENG 250",
             "description": "Survey of British literature from the Romantic period to modernism, analyzing key works and their cultural impact.",
             "courseRating": 4.1,
             "skills": ["Literary Analysis", "Critical Reading"],
@@ -159,7 +142,8 @@
         },
         {
             "courseID": 13,
-            "courseName": "CSE 330",
+            "courseName": "Advanced Algorithms",
+            "code": "CSE 347",
             "description": "Advanced algorithms and data structures, including graph algorithms, dynamic programming, and computational complexity.",
             "courseRating": 4.8,
             "skills": ["Algorithms", "Optimization"],
@@ -172,7 +156,8 @@
         },
         {
             "courseID": 14,
-            "courseName": "LAW 410",
+            "courseName": "IP Law",
+            "code": "LAW 410",
             "description": "Examination of intellectual property law, including copyright, patents, trademarks, and trade secrets.",
             "courseRating": 4.5,
             "skills": ["IP Law", "Legal Research"],
@@ -185,7 +170,8 @@
         },
         {
             "courseID": 15,
-            "courseName": "CHEM 201",
+            "courseName": "Organic Chemistry",
+            "code": "CHEM 201",
             "description": "Organic chemistry fundamentals, including molecular structure, reaction mechanisms, and spectroscopy.",
             "courseRating": 4.0,
             "skills": ["Organic Chemistry", "Lab Techniques"],
@@ -197,8 +183,23 @@
             "Major": "Tech/Engineering"
         },
         {
+            "courseID": 5,
+            "courseName": "Rapid Prototyping and Development",
+            "code": "CSE 330",
+            "description": "This course uses web development as a vehicle for developing skills in rapid prototyping. Students acquire the skills to build a Linux web server in Apache, to write a web site from scratch in PHP, to run an SQL database, to perform scripting in Python, and to develop modern web applications in client-side and server-side JavaScript.",
+            "courseRating": 9999,
+            "skills": ["Something Interesting"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
             "courseID": 16,
-            "courseName": "MATH 310",
+            "courseName": "Advanced Calculus",
+            "code": "MATH 310",
             "description": "Advanced calculus topics, including multivariable functions, partial derivatives, and vector calculus.",
             "courseRating": 4.4,
             "skills": ["Calculus", "Mathematical Proofs"],
@@ -211,7 +212,8 @@
         },
         {
             "courseID": 17,
-            "courseName": "WRIT 310",
+            "courseName": "Writing Workshop",
+            "code": "WRIT 310",
             "description": "Creative writing workshop focusing on fiction and narrative techniques, with peer reviews and instructor feedback.",
             "courseRating": 4.3,
             "skills": ["Creative Writing", "Storytelling"],
@@ -224,7 +226,8 @@
         },
         {
             "courseID": 18,
-            "courseName": "EE 200",
+            "courseName": "Circuits",
+            "code": "EE 200",
             "description": "Fundamentals of electrical circuits, including Ohm's Law, Kirchhoff's Laws, AC/DC analysis, and basic electronics.",
             "courseRating": 4.2,
             "skills": ["Circuit Analysis", "Electronics"],
@@ -237,7 +240,8 @@
         },
         {
             "courseID": 19,
-            "courseName": "LAW 350",
+            "courseName": "Criminal Law",
+            "code": "LAW 350",
             "description": "Criminal law principles, including legal definitions of crimes, defenses, and constitutional protections in criminal proceedings.",
             "courseRating": 4.6,
             "skills": ["Criminal Law", "Case Analysis"],
@@ -250,7 +254,8 @@
         },
         {
             "courseID": 20,
-            "courseName": "BIO 220",
+            "courseName": "Biology",
+            "code": "BIO 220",
             "description": "Cell biology and genetics, covering DNA replication, gene expression, cellular structures, and molecular biology techniques.",
             "courseRating": 4.3,
             "skills": ["Molecular Biology", "Lab Skills"],
@@ -263,7 +268,8 @@
         },
         {
             "courseID": 21,
-            "courseName": "DATA 410",
+            "courseName": "Machine Learning",
+            "code": "DATA 410",
             "description": "Machine learning fundamentals, including supervised and unsupervised learning, neural networks, and model evaluation.",
             "courseRating": 4.7,
             "skills": ["Machine Learning", "Python"],
@@ -276,7 +282,8 @@
         },
         {
             "courseID": 22,
-            "courseName": "LIT 180",
+            "courseName": "World Literature",
+            "code": "LIT 180",
             "description": "World literature survey, covering major works from ancient epics to contemporary global fiction.",
             "courseRating": 4.0,
             "skills": ["Comparative Literature", "Critical Analysis"],
@@ -289,7 +296,8 @@
         },
         {
             "courseID": 23,
-            "courseName": "CSE 405",
+            "courseName": "Software Development Lab",
+            "code": "CSE 405",
             "description": "Software development methodologies, including Agile, Scrum, and DevOps practices for large-scale projects.",
             "courseRating": 4.5,
             "skills": ["Software Development", "Project Management"],
@@ -301,8 +309,23 @@
             "Major": "Tech/Engineering"
         },
         {
+            "courseID": 2,
+            "courseName": "User Centered Design",
+            "code": "CSE 556",
+            "description": "An introduction to user centered design processes. The course covers a variety of HCI techniques for use at different stages in the software development cycle, including techniques that can be used with and without users.",
+            "courseRating": 4.5,
+            "skills": ["UX Design"],
+            "Days": ["T", "Th"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
+        },
+        {
             "courseID": 24,
-            "courseName": "LAW 220",
+            "courseName": "Contract Law",
+            "code": "LAW 220",
             "description": "Contract law fundamentals, including formation, breach, remedies, and the Uniform Commercial Code (UCC).",
             "courseRating": 4.4,
             "skills": ["Contract Law", "Legal Drafting"],
@@ -315,7 +338,8 @@
         },
         {
             "courseID": 25,
-            "courseName": "STAT 300",
+            "courseName": "Probability Theory",
+            "code": "STAT 300",
             "description": "Probability theory and statistical inference, covering distributions, Bayesian methods, and experimental design.",
             "courseRating": 4.2,
             "skills": ["Probability", "Statistical Modeling"],
@@ -328,7 +352,8 @@
         },
         {
             "courseID": 26,
-            "courseName": "WRIT 400",
+            "courseName": "Professional Writing",
+            "code": "WRIT 400",
             "description": "Professional and technical writing, focusing on reports, proposals, and documentation for business and engineering contexts.",
             "courseRating": 4.1,
             "skills": ["Technical Writing", "Business Communication"],
@@ -338,8 +363,21 @@
             "Industry": "Arts/Literature",
             "School": "Business",
             "Major": "Writing"
+        },
+        {
+            "courseID": 6,
+            "courseName": "Object Oriented Design",
+            "code": "CSE 332",
+            "description": "Intensive focus on practical aspects of designing, implementing and debugging software, using object-oriented, procedural, and generic programming techniques.",
+            "courseRating": 9999,
+            "skills": ["Something Interesting"],
+            "Days": ["M", "W"],
+            "Times": ["10", "11"],
+            "Tags": ["Recommended for you", "Alumni Approved"],
+            "Industry": "Tech",
+            "School": "Engineering",
+            "Major": "CS"
         }
-        
     ],
     "Posts":[
         {
