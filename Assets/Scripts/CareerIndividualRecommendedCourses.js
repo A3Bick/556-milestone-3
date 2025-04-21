@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
     internshipList.forEach(internship => {
         console.log("courseData: "+internship.code);
         const internshipCard = createRecommendedCourseCard(internship);
-        const container = document.getElementById("internships");
+        const container = document.getElementById("careerInternships");
         container.appendChild(internshipCard);
     });
 });
