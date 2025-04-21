@@ -234,6 +234,7 @@ header > a{
 #dilFrames, #alumCardContainer, #careerSpecificSubpages{
     margin: 40px 0 60px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #dilFrames > iframe{
@@ -242,7 +243,7 @@ header > a{
 }
 
 #alumCardContainer > div{
-    margin: auto;
+    margin: 10px auto;
 }
 
 #careerSpecificSubpages > div{
@@ -824,6 +825,12 @@ header > a{
 
 .postLike{
     margin-left: 35px;
+}
+
+#AlumniTitle{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
 }
 
 #createPostForm > a{

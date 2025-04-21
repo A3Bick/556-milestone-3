@@ -1,3 +1,5 @@
+import { updateParams } from './ParamUpdater.js';
+
 function createAlumniCard(alumniData) {
     // Create the main card container
     const card = document.createElement('div');
@@ -19,7 +21,7 @@ function createAlumniCard(alumniData) {
     // Create and append the title
     const title = document.createElement('span');
     title.className = 'title';
-    title.textContent = alumniData.title;
+    title.innerHTML += `<span class='selectedCareer'></span>${alumniData.title}`;
     card.appendChild(title);
 
     // Create the info container
@@ -78,6 +80,7 @@ async function populateAlumni(){
         const container = document.getElementById("alumCardContainer");
         container.appendChild(alumniCard);
     });
+    updateParams();
 }
 
 document.addEventListener('DOMContentLoaded', function() {

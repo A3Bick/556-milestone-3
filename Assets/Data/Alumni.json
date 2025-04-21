@@ -2,7 +2,7 @@
     "Alumni": [
         {
             "name": "Jonny Darden",
-            "title": " at Apple",
+            "title": "at Amazon",
             "pronouns": "He/him",
             "classYear": "2022",
             "location": "New York, NY",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Addison Dannie",
-            "title": " at Apple",
+            "title": "at Microsoft",
             "pronouns": "She/her",
             "classYear": "2020",
             "location": "Seattle, Washington",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Allyson Toni",
-            "title": " at Apple",
+            "title": "at Apple",
             "pronouns": "She/her",
             "classYear": "2011",
             "location": "St. Louis, MO",
@@ -26,11 +26,59 @@
         },
         {
             "name": "Morton Orrell",
-            "title": " at Apple",
+            "title": " at Meta",
             "pronouns": "He/him",
             "classYear": "1989",
             "location": "San Jose, CA",
             "imageUrl": "Assets/Images/AlumProfileImage4.png"
+        },
+        {
+            "name": "Elena Rodriguez",
+            "title": " at Google",
+            "pronouns": "She/her",
+            "classYear": "2018",
+            "location": "Austin, TX",
+            "imageUrl": "Assets/Images/AlumProfileImage5.jpeg"
+        },
+        {
+            "name": "Marcus Chen",
+            "title": " at Microsoft",
+            "pronouns": "He/him",
+            "classYear": "2015",
+            "location": "Chicago, IL",
+            "imageUrl": "Assets/Images/AlumProfileImage6.jpg"
+        },
+        {
+            "name": "Priya Patel",
+            "title": " at Amazon",
+            "pronouns": "She/her",
+            "classYear": "2019",
+            "location": "Boston, MA",
+            "imageUrl": "Assets/Images/AlumProfileImage7.jpg"
+        },
+        {
+            "name": "Jordan Williams",
+            "title": " at Facebook",
+            "pronouns": "They/them",
+            "classYear": "2020",
+            "location": "Portland, OR",
+            "imageUrl": "Assets/Images/AlumProfileImage8.png"
+        },
+        {
+            "name": "Nathan Brooks",
+            "title": " at IBM",
+            "pronouns": "He/him",
+            "classYear": "2012",
+            "location": "Atlanta, GA",
+            "imageUrl": "Assets/Images/AlumProfileImage9.png"
+        },
+        {
+            "name": "Sophia Kim",
+            "title": " at NASA",
+            "pronouns": "She/her",
+            "classYear": "2016",
+            "location": "Houston, TX",
+            "imageUrl": "Assets/Images/AlumProfileImage10.jpeg"
         }
     ]
 }

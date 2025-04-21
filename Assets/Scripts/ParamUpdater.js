@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+    updateParams();
+});
+
+export function updateParams(){
     const urlParams = new URLSearchParams(window.location.search);
     const careerTitle = urlParams.get('career');
     console.log("career title: "+careerTitle);
@@ -12,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add button for View More with params
     document.querySelectorAll('.includeParams').forEach(a => {
-        a.href += `?career=${careerTitle}`;
+        const baseUrl = a.href.split('?')[0];
+        a.href = baseUrl + `?career=${careerTitle}`;
     });
-    
-});
+}
