@@ -13,7 +13,7 @@ function getclubs(){
         // get image 
         const clubImage = document.createElement("img")
         clubImage.className = "internshipImage"
-        clubImage.src = clubs[i].clubImage || "../Assets/Images/Club1.jpeg";
+        clubImage.src = clubs[i].clubImage || "./Assets/Images/Club1.jpeg";
 
         // get name, rating, skills, tags, etc...
         const clubInfo = document.createElement("div");

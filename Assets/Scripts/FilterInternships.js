@@ -13,7 +13,7 @@ function getinternships(){
         // get image 
         const internshipImage = document.createElement("img")
         internshipImage.className = "internshipImage"
-        internshipImage.src = internships[i].internshipImage || "../Assets/Images/InternshipImage2.png";
+        internshipImage.src = internships[i].internshipImage || "./Assets/Images/InternshipImage2.png";
 
         // get name, rating, skills, tags, etc...
         const internshipInfo = document.createElement("div");
