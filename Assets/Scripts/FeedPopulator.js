@@ -53,6 +53,8 @@ function createPostCard(postData) {
 </svg>`
     postCard.appendChild(postLike);
 
+    postCard.id = postData.id;
+
     return postCard;
 }
 

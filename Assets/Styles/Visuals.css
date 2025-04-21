@@ -71,6 +71,22 @@ header > a{
 .filterSearch{
     width: 320px;
     height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: hidden;
+    background: #E4E4E4;
+}
+
+#postSearch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.postSearch{
+    width: 320px;
+    height: 25px;
     padding: 0 0 0 10px;
     border-radius: 20px;
     border-style: hidden;
@@ -369,7 +385,7 @@ header > a{
 }
 
 #makePost{
-    margin: 80px auto 20px;
+    margin: 40px auto 20px;
     width: 800px;
     height: 28px;
     padding-top: 12px;

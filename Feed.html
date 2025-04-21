@@ -9,10 +9,15 @@
 
         <div id="alumniFeed">
             <p class="pageTitle">Alumni Posts</p>
+            <form id="postSearch">
+                <input id="Search" type="text" placeholder="Search for Posts" class="filterSearch">
+                <button type="submit" hidden>No Touchy</button>
+            </form>
             <a href="PostCreation.html"><div id="makePost">Alumni share your insights here...</div></a>
             <script src="./Assets/Scripts/FeedPopulator.js"></script>
             <div id="postFeed">
             </div>
         </div>
+        <script type="module" src="./Assets/Scripts/PostsFilter.js"></script>
     </body>
 </html>
