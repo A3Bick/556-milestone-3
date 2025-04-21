@@ -20,7 +20,7 @@ function createRecommendedCourseCard(courseData) {
     const approvalStamp = document.createElement('div');
     approvalStamp.className = 'approvalStamp';
     approvalStamp.textContent = 'Alumni Approved';
-    if (!"Alumni Approved" in courseData.Tags) {
+    if (!("Alumni Approved" in courseData.Tags)) {
         approvalStamp.style = 'visibility: hidden;';
     }
     card.appendChild(approvalStamp);
@@ -39,6 +39,9 @@ function createRecommendedCourseCard(courseData) {
     const courseInfo = document.createElement('div');
     courseInfo.className = 'recommendedCourseCardInfo';
     courseInfo.innerHTML = `
+        <p>
+            Times: ${courseData.Times || '10'}
+        </p>
         <p>
             ${courseData.description || ''}
         </p>
