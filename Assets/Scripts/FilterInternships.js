@@ -129,7 +129,14 @@ filter.addEventListener('input', function(event){
         else if(payText.length > 0){
             if(internships[i].pay != "None"){
                 if(Number(internships[i].pay.slice(0, 2)) >= Number(payText)){
-                    validIds.push(internships[i].internshipID);
+                    if(filterVals.length == 0){
+                        validIds.push(internships[i].internshipID);
+                    }
+                    for(let j = 0; j < filterVals.length; j++){
+                        if(internships[i].Industry == filterVals[j] || internships[i].School == filterVals[j] || internships[i].Major == filterVals[j]){
+                            validIds.push(internships[i].internshipID);
+                        }
+                    }
                 }
             }
         }

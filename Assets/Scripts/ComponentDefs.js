@@ -2,7 +2,9 @@ function initialize(){
     const DocHeader = document.createElement("header");
 
     const HeaderText = document.createElement("a");
-    HeaderText.href = "SplashScreen.html";
+
+    //gonna just replace this with Profile since Splashscreen wasn't ultimately used
+    HeaderText.href = "Profile.html";
 
     const logoImg = document.createElement("img");
     logoImg.src = "Assets/Images/Logo.png"; // replace with your actual logo path
