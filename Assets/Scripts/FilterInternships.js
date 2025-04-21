@@ -10,10 +10,15 @@ function getinternships(){
 
     // for every entry from our json file...
     for(let i = 0; i < internships.length; i++){
+        // get image 
+        const internshipImage = document.createElement("img")
+        internshipImage.className = "internshipImage"
+        internshipImage.src = internships[i].internshipImage || "../Assets/Images/InternshipImage2.png";
 
         // get name, rating, skills, tags, etc...
         const internshipInfo = document.createElement("div");
         internshipInfo.className = "internshipCard";
+        internshipInfo.appendChild(document.createElement("hr"))
 
         const internshipName = document.createElement("p");
         internshipName.className = "internshipCardName";
@@ -22,11 +27,11 @@ function getinternships(){
         const intershipExtraInfo = document.createElement("div");
         intershipExtraInfo.className = "ExtraInfo";
 
-        const pay = document.createElement("p");
+        const pay = document.createElement("div");
         pay.className = "pay";
         pay.innerHTML = "Pay: ".concat(internships[i].pay);
 
-        const skills = document.createElement("p");
+        const skills = document.createElement("div");
         skills.className = "skills";
         let skillString = "Desired Skills: ";
         for(let j = 0; j < internships[i].skills.length; j++){
@@ -34,7 +39,7 @@ function getinternships(){
         }
         skills.innerHTML = skillString;
 
-        const qualities = document.createElement("p");
+        const qualities = document.createElement("div");
         qualities.className = "qualities";
         let qualityString = "Desired Qualities: ";
         for(let j = 0; j < internships[i].qualities.length; j++){
@@ -52,9 +57,12 @@ function getinternships(){
 
 
         // put it all together in a neat little card
-        internshipInfo.appendChild(internshipName);
-        internshipInfo.appendChild(intershipExtraInfo);
-        internshipInfo.appendChild(internshipDesc);
+        internshipInfo.appendChild(internshipImage);
+        const internshipInner = document.createElement("div");
+        internshipInner.appendChild(internshipName);
+        internshipInner.appendChild(intershipExtraInfo);
+        internshipInner.appendChild(internshipDesc);
+        internshipInfo.appendChild(internshipInner);
 
 
         internshipInfo.id = internships[i].internshipID;
