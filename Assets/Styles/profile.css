@@ -72,3 +72,28 @@
     color: #FF624D;
     border-radius: 10px;
 }
+
+#connections{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#connections > div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#connections > div > div{
+    margin-left: 25px;
+    text-align: start;
+}
+
+.Name{
+    font-size: large;
+}
+
+.personDesc{
+    font-size: small;
+}
