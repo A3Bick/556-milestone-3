@@ -58,7 +58,14 @@ function getinternships(){
 
         // put it all together in a neat little card
         internshipInfo.appendChild(internshipImage);
+        const save = document.createElement("div");
+        save.className = "saveClub"
+        save.innerText = "Save"
+        save.addEventListener("click", function() {
+            alert("Internship Successfully Saved!");
+        });
         const internshipInner = document.createElement("div");
+        internshipInner.appendChild(save);
         internshipInner.appendChild(internshipName);
         internshipInner.appendChild(intershipExtraInfo);
         internshipInner.appendChild(internshipDesc);

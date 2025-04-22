@@ -41,7 +41,14 @@ function getclubs(){
 
         // put it all together in a neat little card
         clubInfo.appendChild(clubImage);
+        const save = document.createElement("div");
+        save.className = "saveClub"
+        save.innerText = "Save"
+        save.addEventListener("click", function() {
+            alert("Internship Successfully Saved!");
+        });
         const clubInner = document.createElement("div");
+        clubInner.appendChild(save);
         clubInner.appendChild(clubName);
         clubInner.appendChild(clubTimes);
         clubInner.appendChild(clubDesc);

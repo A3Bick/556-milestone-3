@@ -722,6 +722,23 @@ header > a{
     margin: 10px 0px 0px 130px;
 }
 
+
+.saveInternship, .saveClub{
+    position: absolute;
+    margin-left: 600px;
+    float: right;
+    width: 72px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #2020D2;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px 0 0;
+    background: rgba(138, 171, 255, 0.35);
+}
+
 .internshipCardName, .clubCardName{
     font-size: 17px;
 }
