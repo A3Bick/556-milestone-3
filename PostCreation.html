@@ -9,10 +9,10 @@
         <script src="./Assets/Scripts/ComponentDefs.js"></script>
         <div class="createPost">
             <p>Create Post</p>
-            <form id="createPostForm">
-                <label>Post Title: <input type="text" id="postTitle" placeholder="Input Text Here"></label>
+            <form id="createPostForm" action="Feed.html" method="get">
+                <label>Post Title: <input type="text" name="postTitle" id="postTitle" placeholder="Input Text Here"></label>
                 <p>Description:</p>
-                <textarea id="postDesc" rows="5" cols="100" placeholder="Write Description here"></textarea>
+                <textarea id="postDesc" rows="5" cols="100" name="postDesc" placeholder="Write Description here"></textarea>
                 <div id="postVideo">
                     <p>Post Video: </p>
                     <label for="file-input" class="UploadButton">
@@ -22,10 +22,11 @@
                 </div>
                 <label>Tags: <input type="text" id="postTags" placeholder="Input Text Here"></label>
                 <div id="exitButtons">
+                    <button type="submit" id="submit">Submit</button>
                     <a href="Feed.html" id="cancel">Cancel</a>
-                    <a href="Feed.html" id="submit">Submit</a>
+                    <!--<a href="Feed.html" id="submit">Submit</a>-->
                 </div>
-                <button type="submit" hidden>No Touchy</button>
+                <!--<button type="submit" hidden>No Touchy</button>-->
             </form>
         </div>
     </body>

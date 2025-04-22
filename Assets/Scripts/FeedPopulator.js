@@ -95,4 +95,55 @@ async function populatePosts(){
 document.addEventListener('DOMContentLoaded', function() {
     console.log("loaded content");
     populatePosts();
+    loadGetData();
 });
+
+async function loadGetData(){
+
+    const params = new URLSearchParams(window.location.search);
+
+    if(params.has("postTitle") && params.has("postDesc")){
+
+        console.log("Data Loaded");
+    
+        const feed = document.getElementById("postFeed");
+    
+        const postCard = document.createElement('div');
+        postCard.className = 'postCard';
+    
+        // Create the post card content div
+        const postCardContent = document.createElement('div');
+        postCardContent.className = 'postCardContent';
+    
+        // Create and add the image
+        const img = document.createElement('img');
+        img.src = '../Assets/Images/Profile.png';
+        postCard.appendChild(img);
+    
+        // Create and add author name
+        const postAuthor = document.createElement('div');
+        postAuthor.className = 'postAuthor';
+        postAuthor.textContent = "User"
+        postCardContent.appendChild(postAuthor);
+    
+        // Create and add author title
+        const postAuthorTitle = document.createElement('div');
+        postAuthorTitle.className = 'postAuthorTitle';
+        postAuthorTitle.textContent = 'User';
+        postCardContent.appendChild(postAuthorTitle);
+    
+        // Create and add description
+        const postDescription = document.createElement('p');
+        postDescription.className = 'postDescription';
+        postDescription.textContent = params.get("postDesc");
+        postCardContent.appendChild(postDescription);
+    
+        // Add the content div to the main container
+        postCard.appendChild(postCardContent);
+
+        const horizBreak = document.createElement("hr");
+    
+        feed.appendChild(postCard);
+        feed.appendChild(horizBreak);
+    }
+}
