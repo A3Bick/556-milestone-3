@@ -5,7 +5,7 @@ function createPostCard(postData) {
 
     // Create and add the image
     const img = document.createElement('img');
-    img.src = postData.authorPfp || '../Assets/Images/AlumProfileImage.png';
+    img.src = postData.authorPfp || './Assets/Images/AlumProfileImage.png';
     postCard.appendChild(img);
 
     // Create the post card content div
