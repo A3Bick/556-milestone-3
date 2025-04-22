@@ -5,7 +5,7 @@ function createPostCard(postData) {
 
     // Create and add the image
     const img = document.createElement('img');
-    img.src = postData.authorPfp || './Assets/Images/AlumProfileImage.png';
+    img.src = postData.authorPfp || '../Assets/Images/AlumProfileImage.png';
     postCard.appendChild(img);
 
     // Create the post card content div
@@ -117,7 +117,7 @@ async function loadGetData(){
     
         // Create and add the image
         const img = document.createElement('img');
-        img.src = '../Assets/Images/Profile.png';
+        img.src = 'Assets/Images/Profile.png';
         postCard.appendChild(img);
     
         // Create and add author name
